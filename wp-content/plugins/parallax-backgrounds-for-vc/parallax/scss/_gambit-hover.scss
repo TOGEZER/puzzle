@@ -1,0 +1,32 @@
+@import "mixins-transform";
+
+.gambit_hover_inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	background-size: cover;
+	background-position: center;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	@include transform(none);
+}
+
+// Force rows to be relative for our effect to work
+.has_gambit_hover_row {
+	position: relative !important;
+	z-index: 1;
+	// In safari, our hover 3d transforms CLIP the text above the hover row (any row content), this fixes this bug.
+	> * {
+		transform-style: flat;
+		transform: translateZ(1000px);
+	}
+	> .gambit_hover_inner {
+		z-index: 0;
+	}
+}

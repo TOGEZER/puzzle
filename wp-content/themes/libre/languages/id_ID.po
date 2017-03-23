@@ -1,0 +1,263 @@
+# Translation of Libre in Indonesian
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Rupanya kami tidak dapat menemukan apa yang Anda cari. Mungkin pencarian dapat membantu."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Maaf, tidak ada yang cocok dengan kata yang anda cari. Silahkan coba lagi dengan kata kunci yang lain"
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sudah siap menerbitkan tulisan pertamamu? <a href=\"%1$s\">Mulai di sini</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Tidak ada yang ditemukan"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian untuk: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Arsip"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Arsip: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Obrolan"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Tautan"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Kutipan"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Video"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Gambar"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galeri"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Samping"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "Hari: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Bulan: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "Tahun: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Penulis: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Kaitkata: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "Ditandai %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "Dikirimkan di %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 komentar"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Meninggalkan komentar"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navigasi pos"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Pos-pos Lebih Baru"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Pos-pos Lebih Lama"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navigasi pos"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Halaman %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Lanjut ke konten"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar Anda sedang menunggu moderasi."
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Libre Baskerville, translate this to 'off'. Do not
+#. translate
+#. * into your own language.
+#: functions.php:174
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr "nyala"
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Sunting"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Bilah Sisi"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s oleh %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Dengan bangga ditenagai oleh %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://id.wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Komentar Berikutnya"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Komentar Sebelumnya"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Satu pemikiran pada &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pemikiran pada &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Coba cari di arsip bulanan. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Kategori Paling Banyak Digunakan"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Nampaknya tidak ada yang ditemukan di lokasi. Mungkin coba salah satu tautan di bawah atau telusuri?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Halaman itu tidak dapat ditemukan."

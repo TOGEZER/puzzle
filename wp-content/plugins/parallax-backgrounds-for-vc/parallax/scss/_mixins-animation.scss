@@ -1,0 +1,24 @@
+@mixin animation-fill-mode($value) {
+	-webkit-animation-fill-mode: $value;
+	animation-fill-mode: $value;
+}
+@mixin animation-delay($value) {
+	-webkit-animation-delay: $value;
+	animation-delay: $value;
+}
+@mixin animation-iteration-count($value) {
+	-webkit-animation-iteration-count: $value;
+	animation-iteration-count: $value;
+}
+@mixin animation-name($value) {
+	-webkit-animation-name: $value;
+	animation-name: $value;
+}
+@mixin animation-duration($value) {
+	-webkit-animation-duration: $value;
+	animation-duration: $value;
+}
+@mixin animation-timing-function($value) {
+	-webkit-animation-timing-function: $value;
+	animation-timing-function: $value;
+}

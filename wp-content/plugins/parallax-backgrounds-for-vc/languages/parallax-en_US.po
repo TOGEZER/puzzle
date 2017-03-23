@@ -1,0 +1,589 @@
+# Copyright (C) 2016 Parallax Backgrounds for VC
+# This file is distributed under the same license as the Parallax Backgrounds for VC package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Parallax Backgrounds for VC\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"Language: en_US\n"
+
+#: class-background-row.php:57
+msgid "Row Background"
+msgstr "Row Background"
+
+#: class-background-row.php:60
+msgid "Add a background image or color to your row."
+msgstr "Add a background image or color to your row."
+
+#: class-background-row.php:61, class-color-cycle-bg.php:79,
+#: class-fullheight-row.php:61, class-fullwidth-row.php:63,
+#: class-hover-row.php:61, class-parallax-row.php:61, class-video-row.php:69
+msgid "Row Adjustments"
+msgstr "Row Adjustments"
+
+#: class-background-row.php:66, class-hover-row.php:66,
+#: class-parallax-row.php:66
+msgid "Background Image"
+msgstr "Background Image"
+
+#: class-background-row.php:68, class-hover-row.php:68,
+#: class-parallax-row.php:68
+msgid ""
+"Select your background image. <strong>Make sure that your image is of high "
+"resolution, we will resize the image to make it fit.</strong><br><strong>For "
+"optimal performance, try keeping your images close to 1600 x 900 pixels</"
+"strong>"
+msgstr ""
+"Select your background image. <strong>Make sure that your image is of high "
+"resolution, we will resize the image to make it fit.</strong><br><strong>For "
+"optimal performance, try keeping your images close to 1600 x 900 pixels</"
+"strong>"
+
+#: class-background-row.php:73
+msgid "Background Color"
+msgstr "Background Color"
+
+#: class-background-row.php:76
+msgid "Choose a background color."
+msgstr "Choose a background color."
+
+#: class-background-row.php:81
+msgid "Background Position"
+msgstr "Background Position"
+
+#: class-background-row.php:84, class-fullheight-row.php:68
+msgid "Center"
+msgstr "Center"
+
+#: class-background-row.php:85, class-background-row.php:103
+msgid "Theme Default"
+msgstr "Theme Default"
+
+#: class-background-row.php:86
+msgid "Left Top"
+msgstr "Left Top"
+
+#: class-background-row.php:87
+msgid "Left Center"
+msgstr "Left Center"
+
+#: class-background-row.php:88
+msgid "Left Bottom"
+msgstr "Left Bottom"
+
+#: class-background-row.php:89
+msgid "Right Top"
+msgstr "Right Top"
+
+#: class-background-row.php:90
+msgid "Right Center"
+msgstr "Right Center"
+
+#: class-background-row.php:91
+msgid "Right Bottom"
+msgstr "Right Bottom"
+
+#: class-background-row.php:92
+msgid "Center Top"
+msgstr "Center Top"
+
+#: class-background-row.php:93
+msgid "Center Bottom"
+msgstr "Center Bottom"
+
+#: class-background-row.php:99
+msgid "Background Image Size"
+msgstr "Background Image Size"
+
+#: class-background-row.php:102
+msgid "Cover"
+msgstr "Cover"
+
+#: class-background-row.php:104
+msgid "Contain"
+msgstr "Contain"
+
+#: class-background-row.php:105
+msgid "No Repeat"
+msgstr "No Repeat"
+
+#: class-background-row.php:106
+msgid "Repeat"
+msgstr "Repeat"
+
+#: class-background-row.php:111, class-color-cycle-bg.php:153,
+#: class-fullheight-row.php:76, class-fullwidth-row.php:74,
+#: class-hover-row.php:106, class-parallax-row.php:138, class-video-row.php:111
+msgid "Custom ID"
+msgstr "Custom ID"
+
+#: class-background-row.php:114, class-color-cycle-bg.php:156,
+#: class-fullheight-row.php:79, class-fullwidth-row.php:77,
+#: class-hover-row.php:109, class-parallax-row.php:141, class-video-row.php:114
+msgid "Add a custom id for the element here. Only one ID can be defined."
+msgstr "Add a custom id for the element here. Only one ID can be defined."
+
+#: class-background-row.php:115, class-background-row.php:123,
+#: class-color-cycle-bg.php:157, class-color-cycle-bg.php:165,
+#: class-fullheight-row.php:80, class-fullheight-row.php:88,
+#: class-fullwidth-row.php:78, class-fullwidth-row.php:86,
+#: class-hover-row.php:110, class-hover-row.php:118,
+#: class-parallax-row.php:142, class-parallax-row.php:150,
+#: class-parallax-row.php:158, class-video-row.php:115, class-video-row.php:123
+msgid "Advanced"
+msgstr "Advanced"
+
+#: class-background-row.php:119, class-color-cycle-bg.php:161,
+#: class-fullheight-row.php:84, class-fullwidth-row.php:82,
+#: class-hover-row.php:114, class-parallax-row.php:154, class-video-row.php:119
+msgid "Custom Class"
+msgstr "Custom Class"
+
+#: class-background-row.php:122, class-color-cycle-bg.php:164,
+#: class-fullheight-row.php:87, class-fullwidth-row.php:85,
+#: class-hover-row.php:117, class-parallax-row.php:157, class-video-row.php:122
+msgid ""
+"Add a custom class name for the element here. If defining multiple classes, "
+"separate them by lines and define them like you would in HTML code."
+msgstr ""
+"Add a custom class name for the element here. If defining multiple classes, "
+"separate them by lines and define them like you would in HTML code."
+
+#: class-color-cycle-bg.php:75
+msgid "Color Cycle BG"
+msgstr "Color Cycle BG"
+
+#: class-color-cycle-bg.php:78
+msgid "Add a background color with cycling colors."
+msgstr "Add a background color with cycling colors."
+
+#: class-color-cycle-bg.php:84
+msgid "Color 1"
+msgstr "Color 1"
+
+#: class-color-cycle-bg.php:87
+msgid "Choose the first color to render."
+msgstr "Choose the first color to render."
+
+#: class-color-cycle-bg.php:92
+msgid "Color 2"
+msgstr "Color 2"
+
+#: class-color-cycle-bg.php:95
+msgid "Choose the second color to render."
+msgstr "Choose the second color to render."
+
+#: class-color-cycle-bg.php:100
+msgid "Color 3"
+msgstr "Color 3"
+
+#: class-color-cycle-bg.php:103
+msgid "Choose the third color to render."
+msgstr "Choose the third color to render."
+
+#: class-color-cycle-bg.php:108
+msgid "Color 4"
+msgstr "Color 4"
+
+#: class-color-cycle-bg.php:111
+msgid "Choose the fourth color to render."
+msgstr "Choose the fourth color to render."
+
+#: class-color-cycle-bg.php:117
+msgid "Check this to shuffle the colors in rendering."
+msgstr "Check this to shuffle the colors in rendering."
+
+#: class-color-cycle-bg.php:123
+msgid "Color cycling duration"
+msgstr "Color cycling duration"
+
+#: class-color-cycle-bg.php:126
+msgid "The duration of the color cycling overall, in seconds."
+msgstr "The duration of the color cycling overall, in seconds."
+
+#: class-color-cycle-bg.php:131
+msgid "Extra selectors for background"
+msgstr "Extra selectors for background"
+
+#: class-color-cycle-bg.php:134
+msgid ""
+"If you want more selectors to be affected by the color cycling, enter their "
+"CSS element selector names here, separated by commas. This selector will "
+"affect the element's CSS background."
+msgstr ""
+"If you want more selectors to be affected by the color cycling, enter their "
+"CSS element selector names here, separated by commas. This selector will "
+"affect the element's CSS background."
+
+#: class-color-cycle-bg.php:139
+msgid "Extra selectors for color"
+msgstr "Extra selectors for color"
+
+#: class-color-cycle-bg.php:142
+msgid ""
+"To make the color cycling apply to color-driven elements, enter their "
+"selectors here. This selector will affect the element's CSS color."
+msgstr ""
+"To make the color cycling apply to color-driven elements, enter their "
+"selectors here. This selector will affect the element's CSS color."
+
+#: class-color-cycle-bg.php:148
+msgid ""
+"Check this box to suppress background color cycling, and instead render it "
+"with the extra selectors. Handy for special designs."
+msgstr ""
+"Check this box to suppress background color cycling, and instead render it "
+"with the extra selectors. Handy for special designs."
+
+#: class-fullheight-row.php:57
+msgid "Full-Height Row"
+msgstr "Full-Height Row"
+
+#: class-fullheight-row.php:60
+msgid "Add this to a row to make it full-height."
+msgstr "Add this to a row to make it full-height."
+
+#: class-fullheight-row.php:65
+msgid "Row Content Location"
+msgstr "Row Content Location"
+
+#: class-fullheight-row.php:69
+msgid "Top"
+msgstr "Top"
+
+#: class-fullheight-row.php:70
+msgid "Bottom"
+msgstr "Bottom"
+
+#: class-fullheight-row.php:72
+msgid ""
+"When your row height gets stretched, your content can be smaller than your "
+"row height. Choose the location here.<br><br><em>Please remove your row&apos;"
+"s top and bottom margins to make this work correctly.</em>"
+msgstr ""
+"When your row height gets stretched, your content can be smaller than your "
+"row height. Choose the location here.<br><br><em>Please remove your row&apos;"
+"s top and bottom margins to make this work correctly.</em>"
+
+#: class-fullwidth-row.php:59
+msgid "Full-Width Row"
+msgstr "Full-Width Row"
+
+#: class-fullwidth-row.php:62
+msgid "Add this to a row to make it full-width."
+msgstr "Add this to a row to make it full-width."
+
+#: class-fullwidth-row.php:67
+msgid "Row Content Width"
+msgstr "Row Content Width"
+
+#: class-fullwidth-row.php:70
+msgid ""
+"When your row gets stretched, your content will by default be adjusted to "
+"the <strong>content width</strong> defined by your theme. Enter a value here "
+"with units (px or %) to adjust the width of your full-width content.<br>e.g. "
+"Use <code>100%</code> to stretch your row content to the entire full-width,"
+"<br>Use <code>50%</code> to make your content exactly half of the page,"
+"<br>Use <code>700px</code> to ensure your content is at maximum 700 pixels "
+"wide,<br>or leave <strong>blank</strong> to follow the default row content "
+"width,<br>"
+msgstr ""
+"When your row gets stretched, your content will by default be adjusted to "
+"the <strong>content width</strong> defined by your theme. Enter a value here "
+"with units (px or %) to adjust the width of your full-width content.<br>e.g. "
+"Use <code>100%</code> to stretch your row content to the entire full-width,"
+"<br>Use <code>50%</code> to make your content exactly half of the page,"
+"<br>Use <code>700px</code> to ensure your content is at maximum 700 pixels "
+"wide,<br>or leave <strong>blank</strong> to follow the default row content "
+"width,<br>"
+
+#: class-hover-row.php:57
+msgid "Hover Row Background"
+msgstr "Hover Row Background"
+
+#: class-hover-row.php:60
+msgid "Add a hover bg to your row."
+msgstr "Add a hover bg to your row."
+
+#: class-hover-row.php:73
+msgid "Hover Type"
+msgstr "Hover Type"
+
+#: class-hover-row.php:76
+msgid "Move"
+msgstr "Move"
+
+#: class-hover-row.php:77
+msgid "Tilt"
+msgstr "Tilt"
+
+#: class-hover-row.php:79
+msgid "Choose the type of effect when the row is hovered on."
+msgstr "Choose the type of effect when the row is hovered on."
+
+#: class-hover-row.php:84
+msgid "Move/Tilt Amount"
+msgstr "Move/Tilt Amount"
+
+#: class-hover-row.php:87
+msgid ""
+"The move (pixels) or tilt (degrees) amount when the background is hovered "
+"on. For tilt types, the maximum allowed amount is <code>45 degrees</code>"
+msgstr ""
+"The move (pixels) or tilt (degrees) amount when the background is hovered "
+"on. For tilt types, the maximum allowed amount is <code>45 degrees</code>"
+
+#: class-hover-row.php:92, class-parallax-row.php:124, class-video-row.php:104
+msgid "Opacity"
+msgstr "Opacity"
+
+#: class-hover-row.php:95
+msgid ""
+"You may set the opacity level for your background. You can add a background "
+"color to your row and add an opacity here to tint your background. "
+"<strong>Please choose an integer value between 1 and 100.</strong>"
+msgstr ""
+"You may set the opacity level for your background. You can add a background "
+"color to your row and add an opacity here to tint your background. "
+"<strong>Please choose an integer value between 1 and 100.</strong>"
+
+#: class-hover-row.php:100
+msgid "Invert Move/Tilt Movement"
+msgstr "Invert Move/Tilt Movement"
+
+#: class-hover-row.php:102
+msgid ""
+"Check this to invert the movement of the effect with regards the direction "
+"of the mouse"
+msgstr ""
+"Check this to invert the movement of the effect with regards the direction "
+"of the mouse"
+
+#: class-parallax-row.php:57
+msgid "Parallax Row Background"
+msgstr "Parallax Row Background"
+
+#: class-parallax-row.php:60
+msgid "Add a parallax bg to your row."
+msgstr "Add a parallax bg to your row."
+
+#: class-parallax-row.php:73
+msgid "Background Image Parallax"
+msgstr "Background Image Parallax"
+
+#: class-parallax-row.php:82
+msgid ""
+"Choose the direction of your parallax. <strong>Note that browsers render "
+"fixed directions very slow since they aren't hardware accelerated.</strong>"
+msgstr ""
+"Choose the direction of your parallax. <strong>Note that browsers render "
+"fixed directions very slow since they aren't hardware accelerated.</strong>"
+
+#: class-parallax-row.php:87
+msgid "Parallax Speed"
+msgstr "Parallax Speed"
+
+#: class-parallax-row.php:90
+msgid ""
+"The movement speed, value should be between 0.1 and 1.0. A lower number "
+"means slower scrolling speed."
+msgstr ""
+"The movement speed, value should be between 0.1 and 1.0. A lower number "
+"means slower scrolling speed."
+
+#: class-parallax-row.php:99
+msgid "Background Style / Repeat"
+msgstr "Background Style / Repeat"
+
+#: class-parallax-row.php:102
+msgid "Cover Whole Row (covers the whole row)"
+msgstr "Cover Whole Row (covers the whole row)"
+
+#: class-parallax-row.php:103
+msgid "Repeating Image Pattern"
+msgstr "Repeating Image Pattern"
+
+#: class-parallax-row.php:105
+msgid ""
+"Select whether the background image above should cover the whole row, or "
+"whether the image is a background seamless pattern."
+msgstr ""
+"Select whether the background image above should cover the whole row, or "
+"whether the image is a background seamless pattern."
+
+#: class-parallax-row.php:110
+msgid "Background Position / Alignment"
+msgstr "Background Position / Alignment"
+
+#: class-parallax-row.php:113
+msgid "Centered"
+msgstr "Centered"
+
+#: class-parallax-row.php:114
+msgid "Left (only applies to up, down parallax or fixed)"
+msgstr "Left (only applies to up, down parallax or fixed)"
+
+#: class-parallax-row.php:115
+msgid "Right (only applies to up, down parallax or fixed)"
+msgstr "Right (only applies to up, down parallax or fixed)"
+
+#: class-parallax-row.php:116
+msgid "Top (only applies to left or right parallax)"
+msgstr "Top (only applies to left or right parallax)"
+
+#: class-parallax-row.php:117
+msgid "Bottom (only applies to left or right parallax)"
+msgstr "Bottom (only applies to left or right parallax)"
+
+#: class-parallax-row.php:119
+msgid ""
+"The alignment of the background / parallax image. Note that this most likely "
+"will only be noticeable in smaller screens, if the row is large enough, the "
+"image will most likely be fully visible. Use this if you want to ensure that "
+"a certain area will always be visible in your parallax in smaller screens."
+msgstr ""
+"The alignment of the background / parallax image. Note that this most likely "
+"will only be noticeable in smaller screens, if the row is large enough, the "
+"image will most likely be fully visible. Use this if you want to ensure that "
+"a certain area will always be visible in your parallax in smaller screens."
+
+#: class-parallax-row.php:127, class-video-row.php:107
+msgid ""
+"You may set the opacity level for your parallax. You can add a background "
+"color to your row and add an opacity here to tint your parallax. "
+"<strong>Please choose an integer value between 1 and 100.</strong>"
+msgstr ""
+"You may set the opacity level for your parallax. You can add a background "
+"color to your row and add an opacity here to tint your parallax. "
+"<strong>Please choose an integer value between 1 and 100.</strong>"
+
+#: class-parallax-row.php:133
+msgid "Check this to enable the parallax effect in mobile devices"
+msgstr "Check this to enable the parallax effect in mobile devices"
+
+#: class-parallax-row.php:134
+msgid ""
+"Parallax effects would most probably cause slowdowns when your site is "
+"viewed in mobile devices. If the device width is less than 980 pixels, then "
+"it is assumed that the site is being viewed in a mobile device."
+msgstr ""
+"Parallax effects would most probably cause slowdowns when your site is "
+"viewed in mobile devices. If the device width is less than 980 pixels, then "
+"it is assumed that the site is being viewed in a mobile device."
+
+#: class-parallax-row.php:146
+msgid "Parallax ID"
+msgstr "Parallax ID"
+
+#: class-parallax-row.php:149
+msgid "Assign an ID for the actual parallax row here."
+msgstr "Assign an ID for the actual parallax row here."
+
+#: class-plugin.php:60
+msgid "Automatic Updates"
+msgstr "Automatic Updates"
+
+#: class-plugin.php:61
+msgid ""
+"Keep your Parallax Backgrounds for VC plugin updated by entering your "
+"purchase code here."
+msgstr ""
+"Keep your Parallax Backgrounds for VC plugin updated by entering your "
+"purchase code here."
+
+#: class-plugin.php:113
+msgid "Get Customer Support"
+msgstr "Get Customer Support"
+
+#: class-plugin.php:117
+msgid "Get More Plugins"
+msgstr "Get More Plugins"
+
+#: class-video-row.php:65
+msgid "Video Row Background"
+msgstr "Video Row Background"
+
+#: class-video-row.php:68
+msgid "Add a video bg to your row."
+msgstr "Add a video bg to your row."
+
+#: class-video-row.php:74
+msgid "YouTube or Vimeo URL or Video ID"
+msgstr "YouTube or Vimeo URL or Video ID"
+
+#: class-video-row.php:77
+msgid ""
+"Enter the URL to the video or the video ID of your YouTube or Vimeo video "
+"you want to use as your background. If your URL isn't showing a video, try "
+"inputting the video ID instead. <em>Ads will show up in the video if it has "
+"them.</em> <strong>Tip: newly uploaded videos may not display right away and "
+"might show an error message</strong><br><br><strong>Videos will not show up "
+"in mobile devices because they handle videos differently. In those cases, "
+"please put in a background image the normal way (in the <em>Design Options</"
+"em> tab in the row background) and that will be shown instead.</strong><br /"
+"><br />Only videos set as public or unlisted can be used, private videos "
+"will not work."
+msgstr ""
+"Enter the URL to the video or the video ID of your YouTube or Vimeo video "
+"you want to use as your background. If your URL isn't showing a video, try "
+"inputting the video ID instead. <em>Ads will show up in the video if it has "
+"them.</em> <strong>Tip: newly uploaded videos may not display right away and "
+"might show an error message</strong><br><br><strong>Videos will not show up "
+"in mobile devices because they handle videos differently. In those cases, "
+"please put in a background image the normal way (in the <em>Design Options</"
+"em> tab in the row background) and that will be shown instead.</strong><br /"
+"><br />Only videos set as public or unlisted can be used, private videos "
+"will not work."
+
+#: class-video-row.php:82
+msgid "Mute Video"
+msgstr "Mute Video"
+
+#: class-video-row.php:84
+msgid "Mute the video."
+msgstr "Mute the video."
+
+#: class-video-row.php:89
+msgid "YouTube force HD"
+msgstr "YouTube force HD"
+
+#: class-video-row.php:91
+msgid ""
+"Force YouTube video to load in HD. Depending on the video uploaded, it may "
+"range between 720p and 1080p, whichever is the highest possible determined "
+"by YouTube over the viewer's current connection. Vimeo plus or PRO can force "
+"HD loading via their video's settings."
+msgstr ""
+"Force YouTube video to load in HD. Depending on the video uploaded, it may "
+"range between 720p and 1080p, whichever is the highest possible determined "
+"by YouTube over the viewer's current connection. Vimeo plus or PRO can force "
+"HD loading via their video's settings."
+
+#: class-video-row.php:96
+msgid "Video Aspect Ratio"
+msgstr "Video Aspect Ratio"
+
+#: class-video-row.php:99
+msgid ""
+"The video will be resized to maintain this aspect ratio, this is to prevent "
+"the video from showing any black bars. Enter an aspect ratio here such as: "
+"&quot;16:9&quot;, &quot;4:3&quot; or &quot;16:10&quot;. The default is "
+"&quot;16:9&quot;"
+msgstr ""
+"The video will be resized to maintain this aspect ratio, this is to prevent "
+"the video from showing any black bars. Enter an aspect ratio here such as: "
+"&quot;16:9&quot;, &quot;4:3&quot; or &quot;16:10&quot;. The default is "
+"&quot;16:9&quot;"

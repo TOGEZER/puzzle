@@ -1,0 +1,22 @@
+@mixin transform($value) {
+	-webkit-transform: $value;
+	-ms-transform: $value;
+	transform: $value;
+}
+@mixin transform-origin($value1, $value2:'') {
+	@if $value2 != '' {
+		$value2: $value2;
+		-webkit-transform-origin: $value1 $value2;
+		-ms-transform-origin: $value1 $value2;
+		transform-origin: $value1 $value2;
+	}
+	@else {
+		-webkit-transform-origin: $value1;
+		-ms-transform-origin: $value1;
+		transform-origin: $value1;
+	}
+}
+@mixin perspective-origin($value) {
+	-webkit-perspective-origin: $value;
+	perspective-origin: $value;
+}

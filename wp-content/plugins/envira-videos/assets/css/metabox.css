@@ -1,0 +1,55 @@
+/* ==========================================================================
+   metabox.css loads on any Envira Gallery Create/Edit Screen
+
+   Any styles that will be used by the main Gallery editor screen should be 
+   added to this file
+   ========================================================================== */
+body.post-type-envira {
+  /* ==========================================================================
+     Form
+     ========================================================================== */ }
+  body.post-type-envira form#post {
+    /**
+     * Defined so we override WordPress' default styles
+     */ }
+    body.post-type-envira form#post #poststuff {
+      /* ==========================================================================
+         Envira Gallery Settings
+         ========================================================================== */ }
+      body.post-type-envira form#post #poststuff #envira-gallery-settings {
+        /**
+        * Settings
+        */ }
+        body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs {
+          /**
+          * Tab: Images
+          */ }
+          body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images {
+            /**
+            * Image Grid
+            */ }
+            body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li {
+              /**
+              * Metadata
+              */ }
+              body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li div.meta {
+                /**
+                * Additional metadata
+                */ }
+                body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li div.meta div.additional span.envira-video-type {
+                  display: inline-block;
+                  text-indent: -9999px;
+                  width: 120px;
+                  height: 40px; }
+                  body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li div.meta div.additional span.envira-video-type.youtube {
+                    background: url(../images/youtube.svg) top left no-repeat;
+                    background-size: 50px; }
+                  body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li div.meta div.additional span.envira-video-type.vimeo {
+                    background: url(../images/vimeo.svg) top left no-repeat;
+                    background-size: 50px; }
+                  body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li div.meta div.additional span.envira-video-type.wistia {
+                    background: url(../images/wistia.svg) top left no-repeat;
+                    background-size: 50px; }
+                  body.post-type-envira form#post #poststuff #envira-gallery-settings #envira-tabs #envira-tab-images ul#envira-gallery-output li div.meta div.additional span.envira-video-type.self-hosted {
+                    background: url(../images/self-hosted.svg) top left no-repeat;
+                    background-size: 50px; }

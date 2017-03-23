@@ -1,0 +1,56 @@
+/**
+* Media View
+*/
+.attachments-browser.envira-videos {
+  /**
+  * Router Bar
+  */
+  /**
+  * Videos
+  */
+  /**
+  * Sidebar
+  */ }
+  .attachments-browser.envira-videos div.media-toolbar div.media-toolbar-primary button.envira-videos-add {
+    float: right;
+    margin-top: 10px; }
+  .attachments-browser.envira-videos ul.envira-videos-attachments {
+    /**
+    * Video
+    */ }
+    .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment {
+      width: 100%;
+      border: 5px dashed #eee;
+      padding: 10px;
+      margin-bottom: 2em;
+      padding-top: 2em;
+      /**
+      * Remove Button
+      */ }
+      .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment a.envira-videos-delete {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 7px 9px 0 0; }
+      .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment div {
+        clear: both;
+        width: 100%;
+        margin-bottom: 1em;
+        text-align: left !important; }
+        .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment div.image {
+          display: none; }
+        .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment div label {
+          clear: both;
+          width: 100%;
+          text-align: left; }
+          .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment div label strong {
+            float: left;
+            text-align: left; }
+        .attachments-browser.envira-videos ul.envira-videos-attachments li.envira-videos-attachment div input {
+          clear: both;
+          width: 100%; }
+  .attachments-browser.envira-videos .envira-gallery-accepted-urls {
+    clear: both;
+    overflow: hidden; }
+    .attachments-browser.envira-videos .envira-gallery-accepted-urls span {
+      display: block; }

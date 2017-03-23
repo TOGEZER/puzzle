@@ -1,0 +1,263 @@
+# Translation of Libre in Russian
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Архивы"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Архивы: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Чаты"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудио"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статусы"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Ссылки"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Видео"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Изображения"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галереи"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Заметки"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "d.m.Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Метка: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Рубрика: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "Рубрика: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "Опубликовано: %1$s"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "Автор: %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Следующие записи"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Предыдущие записи"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Изменить"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s, автор: %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://ru.wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: Один комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте поискать в ежемесячных архивах. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Самые используемые рубрики"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По этому адресу ничего не найдено. Воспользуйтесь одной из следующих ссылок или поиском."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка. Страница не найдена."

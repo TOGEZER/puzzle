@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Polaroid Theme Styles
+   ========================================================================== */
+/**
+* Gallery
+*/
+.envira-gallery-theme-polaroid .envira-gallery-item {
+  /**
+  * Default Transformation
+  */
+  /**
+  * Rotate even images +2 degrees
+  */
+  /**
+  * Don't rotate every third image, just offset the position
+  */
+  /**
+  * Rotate every 5th image +5 degrees + offset
+  */
+  /**
+  * Keep default rotate, offset
+  */
+  /**
+  * Keep default rotate, offset
+  */
+  /**
+  * Hover
+  */ }
+  .envira-gallery-theme-polaroid .envira-gallery-item .envira-gallery-item-inner {
+    padding: 10px;
+    background: #fff;
+    /**
+    * Rotate all images -2 degress
+    */
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    /**
+    * Drop shadow
+    */
+    -webkit-transition: -webkit-transform .15s linear;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25); }
+  .envira-gallery-theme-polaroid .envira-gallery-item:nth-child(even) .envira-gallery-item-inner {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    transform: rotate(2deg); }
+  .envira-gallery-theme-polaroid .envira-gallery-item:nth-child(3n) .envira-gallery-item-inner {
+    -webkit-transform: none;
+    -moz-transform: none;
+    position: relative;
+    top: -10px; }
+  .envira-gallery-theme-polaroid .envira-gallery-item:nth-child(5n) .envira-gallery-item-inner {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    position: relative;
+    right: 10px; }
+  .envira-gallery-theme-polaroid .envira-gallery-item:nth-child(8n) .envira-gallery-item-inner {
+    position: relative;
+    top: 16px;
+    right: 10px; }
+  .envira-gallery-theme-polaroid .envira-gallery-item:nth-child(11n) .envira-gallery-item-inner {
+    position: relative;
+    top: 3px;
+    left: -5px; }
+  .envira-gallery-theme-polaroid .envira-gallery-item:hover .envira-gallery-item-inner {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
+
+/**
+* Pagination
+*/
+.envira-gallery-theme-polaroid .envira-pagination a {
+  text-decoration: none;
+  background: #f7f7f8;
+  padding: 10px;
+  border: 1px solid #e7e7e8;
+  color: #000; }
+  .envira-gallery-theme-polaroid .envira-pagination a:hover {
+    opacity: .5; }
+.envira-gallery-theme-polaroid .envira-pagination span {
+  text-decoration: none;
+  background: #f7f7f8;
+  padding: 10px;
+  border: 1px solid #e7e7e8;
+  color: #000; }
+  .envira-gallery-theme-polaroid .envira-pagination span.current {
+    opacity: .5; }
+
+.envira-pagination-previous-next-only a.page-numbers,
+.envira-pagination-previous-next-only span.page-numbers {
+  display: none; }
+.envira-pagination-previous-next-only a.prev, .envira-pagination-previous-next-only a.next {
+  display: inline; }
+
+/**
+* Lightbox
+*/
+.envirabox-skin.envirabox-theme-polaroid {
+  padding: 0 !important;
+  border-radius: 0 !important;
+  /**
+  * Titles
+  */ }
+  .envirabox-skin.envirabox-theme-polaroid .envirabox-title-float-wrap span.child {
+    background: #f7f7f8;
+    color: #000;
+    text-shadow: none;
+    border-radius: 0; }
+  .envirabox-skin.envirabox-theme-polaroid .envirabox-title-inside-wrap {
+    padding: 10px;
+    color: #000;
+    text-shadow: none; }
+  .envirabox-skin.envirabox-theme-polaroid .envirabox-title-over-wrap {
+    background: #f7f7f8;
+    color: #000;
+    text-shadow: none; }

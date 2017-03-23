@@ -1,0 +1,1 @@
+var EnviraVideosView=Backbone.View.extend({tagName:"div",className:"envira-video",template:wp.template("envira-meta-editor-video"),initialize:function(e){this.model=e.model},render:function(){return this.$el.html(this.template(this.model.attributes)),this}});EnviraGalleryChildViews.push(EnviraVideosView);

@@ -1,0 +1,355 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Libre 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/libre\n"
+"POT-Creation-Date: 2015-07-03 03:53:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:110
+msgid "Footer Widgets 1"
+msgstr ""
+
+#: functions.php:120
+msgid "Footer Widgets 2"
+msgstr ""
+
+#: functions.php:130
+msgid "Footer Widgets 3"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Libre Baskerville, translate this to 'off'. Do not
+#. translate
+#. 	 * into your own language.
+#: functions.php:174
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:229
+msgid ""
+"Continue reading <span class=\"screen-reader-text\">%1$s</span> <span class="
+"\"meta-nav\" aria-hidden=\"true\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:289
+msgid "Edit"
+msgstr ""
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:46
+msgid "Menu"
+msgstr ""
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr ""
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:112 inc/template-tags.php:137
+#: template-parts/content-page.php:14 template-parts/content-page.php:30
+msgid "Edit %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:17
+msgid "<span class=\"meta-nav\">Next Post</span> %title"
+msgstr ""
+
+#: single.php:17
+msgid "<span class=\"meta-nav\">Previous Post</span> %title"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/content.php:28
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: wp-content/themes/pub/libre/style.css
+msgid "Libre"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: wp-content/themes/pub/libre/style.css
+msgid "http://wordpress.com/themes/libre/"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/libre/style.css
+msgid ""
+"A stylish, classic look for your personal blog or long-form writing site. "
+"The main navigation bar stays fixed to the top while your visitors read, "
+"keeping your most important content at hand, while three footer widget areas "
+"give your secondary content a comfortable home."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wp-content/themes/pub/libre/style.css
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/pub/libre/style.css
+msgid "http://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/libre/fullwidth-page.php
+msgid "Full Width, No Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/libre/right-column-page.php
+msgid "Right Content, No Sidebar"
+msgstr ""

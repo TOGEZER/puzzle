@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Subtle Theme Styles
+   ========================================================================== */
+.envira-gallery-theme-subtle .envira-gallery-item .envira-gallery-item-inner {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #edecec; }
+
+.envira-gallery-theme-subtle .envira-gallery-item .envira-gallery-item-inner:hover {
+  border: 1px solid #dddcdc; }
+
+/**
+* Pagination
+*/
+.envira-gallery-theme-subtle .envira-pagination a {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #edecec;
+  text-decoration: none;
+  color: #333; }
+  .envira-gallery-theme-subtle .envira-pagination a:hover {
+    border: 1px solid #dddcdc;
+    background: #e1dede; }
+.envira-gallery-theme-subtle .envira-pagination span {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #edecec;
+  color: #333; }
+  .envira-gallery-theme-subtle .envira-pagination span.current {
+    border: 1px solid #dddcdc;
+    background: #e1dede; }
+
+.envira-pagination-previous-next-only a.page-numbers,
+.envira-pagination-previous-next-only span.page-numbers {
+  display: none; }
+.envira-pagination-previous-next-only a.prev, .envira-pagination-previous-next-only a.next {
+  display: inline; }
+
+/**
+* Lightbox
+*/
+.envirabox-skin.envirabox-theme-subtle {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px !important;
+  background: #fff;
+  border: 1px solid #edecec; }

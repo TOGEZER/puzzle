@@ -1,0 +1,79 @@
+# Copyright (C) 2016 Envira Gallery - Gallery Themes Addon
+# This file is distributed under the same license as the Envira Gallery - Gallery Themes Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Envira Gallery - Gallery Themes Addon 1.2.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/envira-gallery-"
+"themes\n"
+"POT-Creation-Date: 2016-11-11 16:47+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-11-25 16:43+0100\n"
+"Language-Team: mm-design.ch <info@mm-design.ch>\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: Rolf Müri - mm-design <rolf.mueri@mm-design.ch>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_CH\n"
+"X-Poedit-Basepath: D:/xampp/apps/wordpress/htdocs/wp-content/plugins/"
+"envira-gallery-themes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: envira-gallery-themes.php:160 envira-gallery-themes.php:297
+msgid "Captioned"
+msgstr "Beschriftet"
+
+#: envira-gallery-themes.php:166 envira-gallery-themes.php:303
+msgid "Polaroid"
+msgstr "Polaroid"
+
+#: envira-gallery-themes.php:172 envira-gallery-themes.php:309
+msgid "Showcase"
+msgstr "Vitrine"
+
+#: envira-gallery-themes.php:178 envira-gallery-themes.php:315
+msgid "Sleek"
+msgstr "Glatt"
+
+#: envira-gallery-themes.php:184 envira-gallery-themes.php:321
+msgid "Subtle"
+msgstr "Fein"
+
+#: envira-gallery-themes.php:204
+msgid "Blur"
+msgstr "Unscharf"
+
+#: envira-gallery-themes.php:210
+msgid "Desaturate"
+msgstr "Entsättigt"
+
+#: envira-gallery-themes.php:216
+msgid "Threshold"
+msgstr "Grenzwert"
+
+#: envira-gallery-themes.php:222
+msgid "Vintage"
+msgstr "Altmodisch"
+
+#: envira-gallery-themes.php:243
+msgid "Base (Light)"
+msgstr "Basis (Hell)"
+
+#. Plugin Name of the plugin/theme
+msgid "Envira Gallery - Gallery Themes Addon"
+msgstr "Envira Gallery - Galerie Themen Erweiterung"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://enviragallery.com"
+msgstr "http://enviragallery.com"
+
+#. Description of the plugin/theme
+msgid "Enables custom themes for the grid display of Envira galleries."
+msgstr ""
+"Aktiviert benutzerdefinierte Themen für die Gitter-Ansicht von Elvira "
+"Galerien"
+
+#. Author of the plugin/theme
+msgid "Envira Gallery Team"
+msgstr "Envira Gallery Team"

@@ -1,0 +1,79 @@
+/**
+* Media View
+*/
+.attachments-browser.envira-videos {
+	/**
+	* Router Bar
+	*/
+	div.media-toolbar {
+		div.media-toolbar-primary {
+			button.envira-videos-add {
+				float: right;
+				margin-top: 10px;
+			}
+		}
+	}
+	/**
+	* Videos
+	*/
+	ul.envira-videos-attachments {
+		/**
+		* Video
+		*/
+		li.envira-videos-attachment {
+			width: 100%;
+			border: 5px dashed #eee;
+			padding: 10px;
+			margin-bottom: 2em;
+			padding-top: 2em;
+
+			/**
+			* Remove Button
+			*/
+			a.envira-videos-delete {
+				position: absolute;
+				top: 0;
+				right: 0;
+				margin: 7px 9px 0 0;
+			}
+
+			div {
+				clear: both;
+				width: 100%;
+				margin-bottom: 1em;
+				text-align: left !important;
+
+				&.image {
+					display: none;
+				}
+
+				label {
+					clear: both;
+					width: 100%;
+					text-align: left;
+
+					strong {
+						float: left;
+						text-align: left;
+					}
+				}
+				input {
+					clear: both;
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	/**
+	* Sidebar
+	*/
+	.envira-gallery-accepted-urls {
+		clear: both;
+		overflow: hidden;
+
+		span {
+			display: block;
+		}
+	}
+}

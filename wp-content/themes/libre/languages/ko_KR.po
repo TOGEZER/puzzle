@@ -1,0 +1,261 @@
+# Translation of Libre in Korean
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "페이지:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "찾고 계신 것을 찾을 수 없습니다. 검색이 도움이 될 수 있습니다."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "죄송합니다. 검색어와 일치하는 결과가 없습니다. 다른 키워드로 다시 시도해보세요."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "첫 번째 글을 게시할 준비가 되셨나요? <a href=\"%1$s\">여기서 시작하세요</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "찾을 수 없음"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "검색 결과: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "글목록"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "보관함: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "채팅"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "오디오"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "상태"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "링크"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "인용"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "비디오"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "이미지"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "갤러리"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "추가정보"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y F j"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "일: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "월: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "연: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "글쓴이: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "태그: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "카테고리: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "%1$s 태그 지정"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "%1$s에 게시됨"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "댓글 %개"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1개의 댓글"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "댓글 남기기"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "%1$s에 게시됨"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "게시자: %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "글 네비게이션"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "최근 글"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "이전 글"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "글 내비게이션"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "페이지 %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "메뉴"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "컨텐츠로 건너뛰기"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "입력한 댓글이 검토를 기다리고 있습니다."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "편집"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "주 메뉴"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "테마: %1$s(%2$s 제작)."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "댓글은 닫혔습니다."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "최근 댓글"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "이전 댓글"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "댓글 네비게이션"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;에 대한 %1$s개의 생각"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "월간 보관물을 확인해보세요. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "가장 많이 사용된 카테고리"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "이 위치에서 아무 것도 찾을 수 없는 것 같습니다. 아래의 링크 중 하나로 시도하거나 검색을 해보시는 것은 어떠세요?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "페이지를 찾을 수 없습니다."

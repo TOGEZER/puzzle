@@ -1,0 +1,132 @@
+# Copyright (C) 2015 Looks Awesome
+# This file is distributed under the same license as the Flow-Flow package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flow-Flow 1.2.37\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/flow-flow\n"
+"POT-Creation-Date: 2015-04-09 20:33:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-11-14 11:56+0000\n"
+"Last-Translator: 75bytes <75bytes@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=n != 1;"
+
+#: includes/FlowFlow.php:375
+msgid "All"
+msgstr ""
+
+#: includes/FlowFlow.php:376
+msgid "Search"
+msgstr ""
+
+#: includes/FlowFlow.php:377
+msgid "Expand"
+msgstr ""
+
+#: includes/FlowFlow.php:378
+msgid "Collapse"
+msgstr ""
+
+#: includes/FlowFlow.php:379
+msgid "Posted on"
+msgstr ""
+
+#: includes/FlowFlow.php:380
+msgid "Show more"
+msgstr ""
+
+#: includes/FlowFlow.php:383 includes/social/FFFeedUtils.php:29
+msgid "Yesterday"
+msgstr ""
+
+#: includes/FlowFlow.php:384 includes/social/FFFeedUtils.php:48
+msgid "s"
+msgstr ""
+
+#: includes/FlowFlow.php:385 includes/social/FFFeedUtils.php:48
+msgid "m"
+msgstr ""
+
+#: includes/FlowFlow.php:386 includes/social/FFFeedUtils.php:48
+msgid "h"
+msgstr ""
+
+#: includes/FlowFlow.php:387 includes/social/FFFeedUtils.php:55
+msgid "ago"
+msgstr ""
+
+#: includes/FlowFlow.php:389
+msgid "Jan"
+msgstr ""
+
+#: includes/FlowFlow.php:389
+msgid "Feb"
+msgstr ""
+
+#: includes/FlowFlow.php:389
+msgid "March"
+msgstr ""
+
+#: includes/FlowFlow.php:390
+msgid "April"
+msgstr ""
+
+#: includes/FlowFlow.php:390
+msgid "May"
+msgstr ""
+
+#: includes/FlowFlow.php:390
+msgid "June"
+msgstr ""
+
+#: includes/FlowFlow.php:391
+msgid "July"
+msgstr ""
+
+#: includes/FlowFlow.php:391
+msgid "Aug"
+msgstr ""
+
+#: includes/FlowFlow.php:391
+msgid "Sept"
+msgstr ""
+
+#: includes/FlowFlow.php:392
+msgid "Oct"
+msgstr ""
+
+#: includes/FlowFlow.php:392
+msgid "Nov"
+msgstr ""
+
+#: includes/FlowFlow.php:392
+msgid "Dec"
+msgstr ""
+
+#: includes/FlowFlow.php:395
+msgid "Navigate with arrow keys"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Flow-Flow"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "flow.looks-awesome.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Awesome social streams on your site"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Looks Awesome"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "looks-awesome.com"
+msgstr ""

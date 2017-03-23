@@ -1,0 +1,19 @@
+@import "mixins-transform";
+
+.gambit_parallax_inner {
+	min-height: 150px;
+	backface-visibility: hidden;
+}
+
+@media screen and (max-width: 980px) {
+	.gambit_parallax_inner.fixed {
+		background-attachment: scroll !important;
+	}
+}
+
+// Target Chrome & Safari
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.gambit_parallax_inner.fixed {
+		background-attachment: scroll !important;
+	}
+}

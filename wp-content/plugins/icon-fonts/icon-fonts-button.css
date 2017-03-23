@@ -1,0 +1,8 @@
+/**
+ * Button stylesheet for the "Icon Fonts" Wordpress plugin
+ */
+ 
+.mce-i-icon-fonts:before {
+	content: "\f155";
+	font-family: "dashicons";
+}

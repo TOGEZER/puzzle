@@ -1,0 +1,75 @@
+/* ==========================================================================
+   metabox.css loads on any Envira Gallery Create/Edit Screen
+
+   Any styles that will be used by the main Gallery editor screen should be 
+   added to this file
+   ========================================================================== */
+
+body.post-type-envira {
+    /* ==========================================================================
+       Form
+       ========================================================================== */
+    form#post {
+        /**
+         * Defined so we override WordPress' default styles
+         */
+        #poststuff {
+            /* ==========================================================================
+               Envira Gallery Settings
+               ========================================================================== */
+            #envira-gallery-settings {
+            
+                /**
+                * Settings
+                */
+                #envira-tabs {
+                    /**
+                    * Tab: Images
+                    */
+                    #envira-tab-images {
+                        /**
+                        * Image Grid
+                        */
+                        ul#envira-gallery-output {
+                            li {
+                                /**
+                                * Metadata
+                                */
+                                div.meta {
+                                    /**
+                                    * Additional metadata
+                                    */
+                                    div.additional {
+                                        span.envira-video-type {
+                                            display: inline-block;
+                                            text-indent: -9999px;
+                                            width: 120px;
+                                            height: 40px;
+
+                                            &.youtube {
+                                                background: url(../images/youtube.svg) top left no-repeat;
+                                                background-size: 50px;
+                                            }
+                                            &.vimeo {
+                                                background: url(../images/vimeo.svg) top left no-repeat;
+                                                background-size: 50px;
+                                            }
+                                            &.wistia {
+                                                background: url(../images/wistia.svg) top left no-repeat;
+                                                background-size: 50px;
+                                            }
+                                            &.self-hosted {
+                                                background: url(../images/self-hosted.svg) top left no-repeat;
+                                                background-size: 50px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

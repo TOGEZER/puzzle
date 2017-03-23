@@ -1,0 +1,262 @@
+# Translation of Libre in Portuguese (Brazil)
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não podemos encontrar o que você está procurando. Talvez pesquisar pode ajudar."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nada foi encontrado com os termos da sua pesquisa. Tente novamente com algumas palavras-chaves diferentes."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar seu primeiro post? <a href=\"%1$s\">Comece aqui</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Resultados da pesquisa por: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Arquivos"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s @ %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Arquivo: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Áudio"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Status"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citações"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Vídeos"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Imagens"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerias"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Notas"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "Dia: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Mês: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "Ano: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Categoria: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "Marcado %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "Postado em %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 comentário"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Deixe um comentário"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "Publicado em %1$s"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "por %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navegação de Posts"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Posts mais recentes"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Posts antigos"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navegação de Posts"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Página %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "O seu comentário aguarda moderação."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Editar"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Lateral"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s. "
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Orgulhosamente mantido com %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Os comentários estão desativados."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Comentários recentes"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Comentários Antigos"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Navegação de Comentários"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Um comentário sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentários sobre &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Tente olhar nos arquivos mensais. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Categorias mais Usadas"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que nada foi encontrado neste lugar. Quem sabe você possa tentar um dos links abaixo ou uma busca?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Opa! Esta página não pode ser encontrada."

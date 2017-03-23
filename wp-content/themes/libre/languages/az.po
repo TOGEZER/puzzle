@@ -1,0 +1,267 @@
+# Translation of Libre in Azerbaijani
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Səhifələr:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Axtardığınız səhifə tapılmadı. Bəlkə axtarış qutusu axtardığınızı tapmaqda sizə kömək edər."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bağışlayın, axtarış kriteriyalarınıza uyğun heç bir şey tapılmadı. Bəzi fərqli açar kəlmələrdən istifadə edərək təkrar yoxlayın."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk yazınızı dərc etməyə hazırsınızmı? <a href=\"%1$s\">Buradan başlayın</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Heç Nə Tapılmadı"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr " %s üçün Axtarışın Nəticələri:"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Arxivlər"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Arxivlər: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Canlı Söhbətlər"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statuslar"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Sitatlar"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videolar"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Təsvirlər"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Qalereyalar"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Yan sütun"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "Gün: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Ay: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "İl: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Müəllif: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Etiket: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Kateqoriya: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "%1$s Etiketləndi"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "%1$s kateqoriyasında dərc edildi"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% Şərh"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 şərh"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Bir şərh yazın"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "%1$s tərəfindən"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Yazı naviqasiyası"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Yeni yazılar"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Daha köhnə yazılar"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Yazı naviqasiyası"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Səhifə %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menyu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Mühtəviyyata keç"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Şərhiniz yoxlama gözləyir."
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Libre Baskerville, translate this to 'off'. Do not
+#. translate
+#. * into your own language.
+#: functions.php:174
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr "açıq"
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Redaktə et"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Yan menyu"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Əsas menyu"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Mövzu: %1$s tərəfindən %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "%s qürurla təqdim edər"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Şərh üçün bağlıdır."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Yeni Şərhlər"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Əvvəlki şərhlər"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Şərh naviqasiyası"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; üzərinə bir şərh"
+msgstr[1] "&ldquo;%2$s&rdquo; üzərinə %1$s şərh"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Aylıq arxivlərə baxmağı yoxlayın. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Ən sıx istifadə edilən kateqoriyalar"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Burada heç bir şeyin tapılmadığı görünür. Bəlkə aşağıdakı bağlantılardan birini yoxlayasan və ya bir axtarış edəsən?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Bağışlayın! Bu səhifə tapılmır."

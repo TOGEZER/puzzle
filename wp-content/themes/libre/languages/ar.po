@@ -1,0 +1,262 @@
+# Translation of Libre in Arabic
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أننا لم نعثر على ما تطلب. لعل استعمال البحث قد يساعد."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "مستعد لنشر تدوينتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "لم يتم العثور على نتائج"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "أرشيفات"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "الآرشيفات: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "المحادثات"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "الصوتيات"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "الحالات"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "الروابط"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "الإقتباسات"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "الفيديوهات"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "الصور"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "المعارض"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "يوم: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "شهر: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "الوسم: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "التصنيف: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "الكلمات الدلالية: %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "نشرت في %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% تعليقات"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "أضف تعليقاً "
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "بواسطة %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "التنقل بين التدوينات"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "التدوينات الأحدث"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "تدوينات أقدم "
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "تصفح المقالات"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "الصفحة %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "القائمة"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "تخطى إلى المحتوى "
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك في انتظار المراجعة."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "تحرير"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "القائمة الجانبية"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "قالب: %1$s بواسطة %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "مدعوم بواسطة %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "التعليقات الأقدم"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "استعراض التعليق"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "لا أفكار على &rdquo;%2$s&ldquo;"
+msgstr[1] "فكرة واحدة على &rdquo;%2$s&ldquo;"
+msgstr[2] "فكرتان اثنتان على &rdquo;%2$s&ldquo;"
+msgstr[3] "%1$s أفكار على &rdquo;%2$s&ldquo;"
+msgstr[4] "%1$s فكرة على &rdquo;%2$s&ldquo;"
+msgstr[5] "%1$s فكرة على &rdquo;%2$s&ldquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "حاول ان تبحث في الأرشيفات الشهرية. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "أكثر التصنيفات إستخداماً"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "يظهر انه لا يوجد شئ في هذا المكان. ربما يجب ان تجرب إستخدام واحد من الروابط بالأسفل او تجرب البحث؟"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "الصفحة التي طلبتها غير موجودة."

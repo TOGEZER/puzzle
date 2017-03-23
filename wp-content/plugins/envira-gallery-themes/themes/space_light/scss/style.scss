@@ -1,0 +1,592 @@
+/**
+ * Overlay
+ */
+.envirabox-overlay {
+	background-image: none;
+	background-color: #fff;
+	overflow:hidden;
+	overflow-y: hidden;
+}
+
+/**
+* Lightbox
+*/
+.envirabox-wrap {
+
+	& .envirabox-skin {
+
+		&.envirabox-theme-space_light {
+			-webkit-border-radius: none;
+			   -moz-border-radius: none;
+					border-radius: none;
+			padding: 0 !important;
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+
+			/** 
+			 * Navigation
+			 */
+			a.envirabox-nav {
+
+				/**
+				 * Previous Navigation
+				 */
+				&.envirabox-prev {
+
+					span {
+						background-image: url(../images/left-nav@2x.png);
+						background-position: 0 0;
+						background-size: 40px 80px;
+						left: 20px;
+						visibility: visible;
+						width: 40px;
+						height: 40px;
+
+						&:before {
+							content: '';
+							opacity: 0;
+							background-image: url(../images/left-nav@2x.png);
+							background-size: 40px 80px;
+							background-position: 0 -40px;
+							display:block;
+							width: 40px;
+							height: 40px;
+							position: absolute;
+							left:0px;
+							top:0px;
+							-webkit-transition:opacity .2s ease-in;
+							   -moz-transition:opacity .2s ease-in;
+								 -o-transition:opacity .2s ease-in;
+									transition:opacity .2s ease-in;
+						}
+
+					}
+
+					&:hover span:before {
+						opacity: 1;
+					}
+				}
+
+				/**
+				 * Next Navigation
+				 */
+				&.envirabox-next {
+
+					span {
+						background-image: url(../images/right-nav@2x.png);
+						background-position: 0 0;
+						background-size: 40px 80px;
+						right: 20px;
+						visibility: visible;
+						width: 40px;
+						height: 40px;
+
+						&:before {
+							content: '';
+							opacity: 0;
+							background-image: url(../images/right-nav@2x.png);
+							background-size: 40px 80px;
+							background-position: 0 -40px;
+							display:block;
+							width: 40px;
+							height: 40px;
+							position: absolute;
+							left:0px;
+							top:0px;
+							-webkit-transition:opacity .2s ease-in;
+							   -moz-transition:opacity .2s ease-in;
+								 -o-transition:opacity .2s ease-in;
+									transition:opacity .2s ease-in;
+						}
+					}
+
+					&:hover span:before {
+						opacity: 1;
+					}
+				}
+			}
+
+			/** 
+			 * Close Button
+			 */
+			& .envirabox-close {
+				background-image: url(../images/close@2x.png);
+				background-size: 40px 80px;
+				top: 20px;
+				right: 20px;
+				width: 40px;
+				height: 40px;
+
+				&:before {
+					content: '';
+					opacity: 0;
+					background-image: url(../images/close@2x.png);
+					background-size: 40px 80px;
+					background-position: 0 -40px;
+					display:block;
+					width: 40px;
+					height: 40px;
+					position: absolute;
+					left:0px;
+					top:0px;
+					-webkit-transition:opacity .2s ease-in;
+					   -moz-transition:opacity .2s ease-in;
+						 -o-transition:opacity .2s ease-in;
+							transition:opacity .2s ease-in;
+				}
+
+				&:hover:before {
+					opacity: 1;
+				}
+			}
+
+			/**
+			 * Image
+			 */
+			& .envirabox-image {
+				-webkit-box-shadow: 0px 34px 38px 0px rgba(0, 0, 0, 0.3);
+				   -moz-box-shadow: 0px 34px 38px 0px rgba(0, 0, 0, 0.3);
+						box-shadow: 0px 34px 38px 0px rgba(0, 0, 0, 0.3);
+			}
+		}
+
+	}
+
+	/**
+	 * Caption
+	 */
+	& .envirabox-title {
+		position:absolute;
+		bottom: 20px;
+		left: 20px;
+		right: initial;
+		min-height: 40px;
+		padding: 10px;
+		box-sizing: border-box;
+		background-image: url(../images/feature-bg.png);
+		color: #FFF;
+		margin: 0;
+		text-align: left;
+		font-size: 14px;
+		z-index: 988060 !important;
+		visibility: visible;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+				border-radius: 5px;
+		-webkit-transition:background-color .2s ease-in;
+		   -moz-transition:background-color .2s ease-in;
+			 -o-transition:background-color .2s ease-in;
+				transition:background-color .2s ease-in;
+
+		&:hover {
+			background-color: #000;
+		}
+
+		& span.child {
+			margin:0;
+			padding:0;
+			background: none;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			text-shadow: none;
+		}
+
+	}
+
+	/** 
+	 * Social icons
+	 */
+	.envirabox-inner .envirabox-position-overlay {
+		bottom: inherit;
+		top: 20px;
+		left: 20px;
+		right: initial;
+
+		.envira-social-buttons {
+			display: block;
+			float: none;
+			height: 40px;
+			padding: 0 4px;
+			background-image: url(../images/feature-bg.png);
+			-webkit-border-radius: 5px;
+			   -moz-border-radius: 5px;
+					border-radius: 5px;
+			-webkit-transition:background-color .5s ease-in;
+			   -moz-transition:background-color .5s ease-in;
+				 -o-transition:background-color .5s ease-in;
+					transition:background-color .5s ease-in;
+
+			&.orientation-horizontal.outside {
+				position: relative;
+				bottom: 0;
+				min-width: inherit;
+				max-width: inherit;
+			}
+
+			&.orientation-vertical.outside {
+				position: relative;
+				left: 0;
+				min-width: inherit;
+				max-width: inherit;
+			}
+
+			&:hover {
+				background-color: #000;
+			}
+
+			& .envira-social-network {
+				clear: none;
+
+				a.envira-social-button {
+					margin:0;
+					width:32px;
+					height:40px;
+					line-height:32px;
+					background: transparent;
+					-webkit-border-radius: inherit;
+					   -moz-border-radius: inherit;
+							border-radius: inherit;
+					position:relative;
+
+					&:before {
+						position:absolute;
+						left:0;
+						top:0;
+						content: '';
+						margin: 12px 8px;
+						width: 16px;
+						height: 16px;
+						line-height: 16px;
+						background-size: 80px 32px;
+						background-image: url(../images/social@2x.png);
+						-webkit-transition:background-position .1s ease-in;
+						   -moz-transition:background-position .1s ease-in;
+							 -o-transition:background-position .1s ease-in;
+								transition:background-position .1s ease-in;
+					}
+				}
+
+				/**
+				* Buttons for each Social Network
+				*/
+				&.facebook {
+					a { 
+						&:before {
+							background-position: 0 -16px;
+						}
+
+						&:hover:before {
+							background-position: 0 0;
+						}
+					}
+
+				}
+				&.twitter {
+					a { 
+						&:before {
+							background-position: -16px -16px;
+						}
+
+						&:hover:before {
+							background-position: -16px 0;
+						}
+					}
+				}
+				&.pinterest {
+					a { 
+						&:before {
+							background-position: -48px -16px;
+						}
+
+						&:hover:before {
+							background-position: -48px 0;
+						}
+					}
+				}
+				&.google {
+					a { 
+						&:before {
+							background-position: -32px -16px;
+						}
+
+						&:hover:before {
+							background-position: -32px 0;
+						}
+					}
+				}
+				&.email {
+					a { 
+						&:before {
+							background-position: -64px -16px;
+						}
+
+						&:hover:before {
+							background-position: -64px 0;
+						}
+					}
+				}
+
+			}
+
+		}
+
+	}
+
+	/**
+	 * Actions
+	 */
+	& .envirabox-actions {
+		position:absolute;
+		top:20px;
+		right:80px;
+
+		& a {
+			outline: none;
+		}
+
+		& .envira-download-button {
+			display:inline-block;
+			margin-left: 20px;
+			
+			& a {
+				width:40px;
+				height:40px;
+			}
+		}
+
+		& .envira-printing-button {
+			display:inline-block;
+			margin-left: 20px;
+
+			& a {
+				width:40px;
+				height:40px;
+			}
+		}
+
+		& .envira-fullscreen-button {
+			position:relative;
+			display:inline-block;
+			margin-left: 20px;
+			width: 40px;
+			height: 40px;
+			text-indent: -9999px;
+			background-image: url(../images/fullscreen@2x.png);
+			background-size: 40px 80px;
+
+			&:before {
+				content: '';
+				opacity: 0;
+				background-image: url(../images/fullscreen@2x.png);
+				background-size: 40px 80px;
+				background-position: 0 -40px;
+				display:block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				left:0px;
+				top:0px;
+				z-index:1;
+				-webkit-transition:opacity .2s ease-in;
+				   -moz-transition:opacity .2s ease-in;
+					 -o-transition:opacity .2s ease-in;
+						transition:opacity .2s ease-in;
+			}
+
+			&:hover:before {
+				opacity: 1;
+			}
+			
+			& a {
+				position:relative;
+				z-index:2;
+				display:block;
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+		& .envirabox-slideshow-button {
+			position:relative;
+			display:inline-block;
+			margin-left: 20px;
+			width: 40px;
+			height: 40px;
+			text-indent: -9999px;
+			background-image: url(../images/play@2x.png);
+			background-size: 40px 80px;
+			
+			&.playing {
+				background-image: url(../images/pause@2x.png);
+			}
+
+			&:before {
+				content: '';
+				opacity: 0;
+				background-image: url(../images/play@2x.png);
+				background-size: 40px 80px;
+				background-position: 0 -40px;
+				display:block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				left:0px;
+				top:0px;
+				z-index:1;
+				-webkit-transition:opacity .2s ease-in;
+				   -moz-transition:opacity .2s ease-in;
+					 -o-transition:opacity .2s ease-in;
+						transition:opacity .2s ease-in;
+			}
+
+			&.playing:before {
+				background-image: url(../images/pause@2x.png);
+			}
+
+			&:hover:before {
+				opacity: 1;
+			}
+
+			& a {
+				position:relative;
+				z-index:2;
+				display:block;
+				width: 40px;
+				height: 40px;
+			}
+		}
+
+		& .envira-zoom-button {
+			position:relative;
+			display:inline-block;
+			margin-left: 20px;
+			width: 40px;
+			height: 40px;
+			text-indent: -9999px;
+			background-image: url(../images/zoom@2x.png);
+			background-size: 40px 80px;
+
+			&.zoom-on {
+				background-image: url(../images/zoomon@2x.png);
+			}
+
+			&:before {
+				content: '';
+				opacity: 0;
+				background-image: url(../images/zoom@2x.png);
+				background-size: 40px 80px;
+				background-position: 0 -40px;
+				display:block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				left:0px;
+				top:0px;
+				z-index:1;
+				-webkit-transition:opacity .2s ease-in;
+				   -moz-transition:opacity .2s ease-in;
+					 -o-transition:opacity .2s ease-in;
+						transition:opacity .2s ease-in;
+			}
+
+			&.zoom-on:before {
+				background-image: url(../images/zoomon@2x.png);
+			}
+
+			&:hover:before {
+				opacity: 1;
+			}
+			
+			& a {
+				position:relative;
+				z-index:2;
+				display:block;
+				width: 40px;
+				height: 40px;
+
+				&:before {
+					content: '';
+				}
+			}
+		}
+	}
+
+	&.envira-supersize {
+		& .envirabox-outer {
+			background-color: #FFF;
+		}
+	}
+}
+
+#envirabox-thumbs {
+
+	ul li a {
+		border: none;
+	}
+
+	ul li {
+		margin: 36px 18px;
+		border: none;
+		opacity: 0.6;
+	}
+
+	ul li.active {
+		opacity: 1;
+		border: none;
+	}
+
+	&.bottom {
+		bottom: 0;
+	}
+
+}
+
+/**
+* Mobile Landscape (devices and browsers)
+*/
+@media only screen and (max-height: 640px) {
+
+	#envirabox-thumbs {
+
+		ul li a {
+			max-width: 100px;
+			max-height: 60px;
+
+			& img {
+				max-width: 100px;
+				max-height: 60px;
+			}
+		}
+
+		ul li {
+			margin: 18px 10px;
+		}
+
+	}
+}
+
+/**
+* Mobile Portrait (devices and browsers)
+*/
+@media only screen and (max-width: 459px) {
+	
+	#envirabox-thumbs {
+
+		ul li a {
+			max-width: 100px;
+			max-height: 60px;
+
+			& img {
+				max-width: 100px;
+				max-height: 60px;
+			}
+		}
+
+		ul li {
+			margin: 18px 10px;
+		}
+
+	}
+}

@@ -1,0 +1,165 @@
+# Translation of Libre in Irish
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-01 04:14:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Libre\n"
+
+#: inc/template-tags.php:112 inc/template-tags.php:137
+#: template-parts/content-page.php:14 template-parts/content-page.php:30
+msgid "Edit %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "Freagraí: %"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 fhreagra amháin"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Freagra"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "Foilsiú: %1$s"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "le %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Treoraíocht alt"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Chun Tosaigh"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Chun Deiridh"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Treoraíocht alt"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Leathanach %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Roghchlár"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Beir go dtí an t-alt féin mé"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Tá do fhreagra fós le ceadú."
+
+#: functions.php:110
+msgid "Footer Widgets 1"
+msgstr ""
+
+#: functions.php:120
+msgid "Footer Widgets 2"
+msgstr ""
+
+#: functions.php:130
+msgid "Footer Widgets 3"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Libre Baskerville, translate this to 'off'. Do not
+#. translate
+#. * into your own language.
+#: functions.php:174
+msgctxt "Libre Baskerville font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:229
+msgid "Continue reading <span class=\"screen-reader-text\">%1$s</span> <span class=\"meta-nav\" aria-hidden=\"true\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Eagar"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Taobh-Bharra"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Príomhroghchlár"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Téama: %1$s le %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Le cumhacht %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Freagraí dúnta."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Freagraí Níos Nuacha"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Seanfhreagraí"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Treoraíocht freagartha"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Smaoineamh amháin ar “%2$s”"
+msgstr[1] "%1$s smaoineamh ar “%2$s”"
+msgstr[2] "%1$s smaoineamh ar “%2$s”"
+msgstr[3] "%1$s smaoineamh ar “%2$s”"
+msgstr[4] "%1$s smaoineamh ar “%2$s”"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Amharc ar na cartlanna míosa. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Ranganna Coitianta"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Sén chaoi nár fríothadh tada anseo. B’fhéidir go mbreathnófá ar cheann de na naisc seo thíos nó go gcuartófá rud éigin."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ab bu búna! Dheamhan fáil ar bith ar an leathanach sin."

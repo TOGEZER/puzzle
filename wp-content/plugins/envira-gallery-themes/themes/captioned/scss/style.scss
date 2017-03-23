@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Captioned Theme Styles
+   ========================================================================== */
+
+.envira-gallery-theme-captioned .envira-gallery-item:hover {
+    opacity: .5;
+}
+
+.envira-gallery-theme-captioned .envira-gallery-captioned-data {
+    background: #f7f7f8;
+    padding: 10px;
+    border: 1px solid #e7e7e8;
+    border-top: 0 none;
+}
+
+.envira-gallery-theme-captioned .envira-gallery-captioned-text {
+    margin: 0;
+    text-align: center;
+    color: #000;
+}
+
+.envira-gallery-theme-captioned .envira-gallery-captioned-text p {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+* Pagination
+*/
+.envira-gallery-theme-captioned {
+	.envira-pagination {
+		a {
+			text-decoration: none;
+			background: #f7f7f8;
+			padding: 10px;
+			border: 1px solid #e7e7e8;
+			color: #000;
+			
+			&:hover {
+				opacity: .5;
+			}
+		}
+		
+		span {
+			text-decoration: none;
+			background: #f7f7f8;
+			padding: 10px;
+			border: 1px solid #e7e7e8;
+			color: #000;
+			
+			&.current {
+				opacity: .5;
+			}
+		}
+	}
+}
+.envira-pagination-previous-next-only {
+    a.page-numbers,
+    span.page-numbers {
+        display: none;
+    }
+    a.prev, a.next {
+        display: inline;
+    }
+}
+
+/**
+* Lightbox
+*/
+.envirabox-skin.envirabox-theme-captioned {
+    padding: 0 !important;
+    border-radius: 0 !important;
+
+    /**
+    * Titles
+    */
+    .envirabox-title-float-wrap {
+        span.child {
+            background: #f7f7f8;
+            color: #000;
+            text-shadow: none;
+            border-radius: 0;
+        }
+    }
+    .envirabox-title-inside-wrap {
+    	padding: 10px;
+    	color: #000;
+        text-shadow: none;
+    }
+    .envirabox-title-over-wrap {
+    	background: #f7f7f8;
+    	color: #000;
+        text-shadow: none;
+    }
+}

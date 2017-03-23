@@ -1,0 +1,262 @@
+# Translation of Libre in Hungarian
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Oldalak:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Úgy tűnik, nem található az, amire gondoltunk. Talán, egy újabb keresés segíthet."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Elnézést, nem találunk a keresési feltételeknek megfelelő eredményt. Másik kulcsszóval, kifejezéssel újra kellene kezdeni egy keresést."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Készen állunk az első bejegyzés közzétételére? <a href=\"%1$s\">Kezdőlépések</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nincs találat"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "%s kifejezésre történő keresés eredménye"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Archívum"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Archívumok: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Beszélgetés naplók"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Hangok"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Állapot üzenetek"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Hivatkozások"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Idézetek"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videók"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Képek"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallériák"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Közbevetések"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y-m-d"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "Nap: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y F"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Hónap: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "Év: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Szerző: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Címke: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Kategória: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "Címkék: %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "Kategória: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% Hozzászólás"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 hozzászólás"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Megjegyzés hozzáfűzése"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "Dátum: %1$s"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "Szerző: %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Bejegyzés navigáció"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Újabb bejegyzések"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Régebbi bejegyzések"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Bejegyzés navigáció"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Oldal %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Tovább a tartalomra"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "A hozzászólás rendszer-moderációra várakozik."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Oldalsáv"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Elsődleges menü"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Sablon: %1$s Szerző: %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Köszönjük %s!"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wphu.org"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Hozzászólások lezárva"
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Újabb hozzászólások"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Korábbi hozzászólások"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Hozzászólás navigáció"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; bejegyzéshez egy hozzászólás"
+msgstr[1] "&ldquo;%2$s&rdquo; bejegyzéshez %1$ hozzászólás"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Próbáljunk betekinteni a hónap bejegyzéseibe: %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Leggyakoribb kategóriák"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "A keresett oldal vagy bejegyzés nem található. Próbálkozzunk meg az alábbi hivatkozásokkal vagy esetleg egy kereséssel."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppá! A keresett oldal nem található."

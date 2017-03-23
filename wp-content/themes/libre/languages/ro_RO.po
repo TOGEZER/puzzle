@@ -1,0 +1,259 @@
+# Translation of Libre in Romanian
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-08 19:32:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nu s-a putut găsi conținutul căutat. Probabil o căutare sau una dintre legăturile de mai jos pot ajuta."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ne pare rau, căutarea nu are nici un rezultat. Vă rugăm să încercați din nou cu unele cuvinte cheie diferite."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pregătit să publici primul articol? <a href=\"%1$s\">Începe de aici</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nu a fost găsit nimic"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării după: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Arhive"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Arhive: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Conversații"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Stări"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Legături"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citat"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videouri"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Imagini"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerii"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Note"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "Zi: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Lună: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "An: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Etichetă: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Categorie: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "Etichetat %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "Publicat în %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 comentariu"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "De %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navigare articol"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Articole mai noi"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Articole mai vechi"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navigare articole"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Meniu"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Sări la conţinut"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău e în așteptare."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Editare"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Bară laterală"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s de %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Rulează cu mândrie pe %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Comentarii mai noi"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Comentarii mai vechi"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Navigare comentarii"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un gând despre &ldquo;%2$s&rdquo;"
+msgstr[1] " %1$s gânduri despre &ldquo;%2$s&rdquo;"
+msgstr[2] " %1$s de gânduri despre &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Încearcă să cauți în arhiva lunară. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Cele mai folosite categorii"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Se pare că nu a fost găsit nimic la această locație. Poate încerci una din legăturile de mai jos sau o căutare?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Pagina nu a fost găsită."

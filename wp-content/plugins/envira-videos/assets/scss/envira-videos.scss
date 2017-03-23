@@ -1,0 +1,107 @@
+/**
+* Play Icon
+*/
+div.envira-gallery-item-inner {
+	div.envira-video-play-icon {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: url(../images/play-icon.svg) center no-repeat;
+		background-size: 32px 32px;
+		text-indent: -9999px;
+	}
+}
+
+	/**
+	* Caption Theme Adjustments
+	*/
+	div.envira-gallery-wrap.envira-gallery-theme-captioned {
+		a.envira-gallery-link {
+			color: transparent;
+			display: inline-block;
+			position: relative;
+			text-transform: none;
+		}
+	}
+
+
+/**
+* Reduce z-index and width of prev/next navigation
+* so they don't interfere with video player controls
+*/
+div.envirabox-overlay.overlay-video {
+	a.envirabox-nav {
+		width: 10%;
+		height: 90%;
+
+		span {
+			top: 55%;
+		}
+	}
+}
+
+/**
+* Lightbox
+*/
+div.envirabox-overlay.overlay-video {
+	div.envirabox-outer {
+
+		div.envirabox-inner {
+/*			overflow: hidden !important; */
+			position: initial;
+
+			/**
+			* Force iFrame based videos (YouTube, Vimeo) to fill the lightbox
+			*/
+			iframe.envirabox-iframe {
+			    display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+			    width: 100% !important;
+			    height: 100% !important;		
+			}
+
+			/**
+			* Force self-hosted videos to fill the lightbox as best as possible
+			*/
+			div.envira-video-container {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+/**
+* Supersize
+*/
+div.envira-supersize {
+	/**
+	* Force MediaElement videos (self hosted) to align to the top of the supersized lightbox
+	*/
+	&.envirabox-type-html {
+		//width: 100% !important;
+
+		div.envirabox-outer {
+			div.envirabox-inner {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	div.envirabox-outer {
+		div.envirabox-inner {
+			/**
+			* Force iFrame based videos (YouTube, Vimeo) to align to the top of the supersized lightbox
+			*/
+			iframe.envirabox-iframe {
+				position: absolute;
+				top: 0;
+			}
+		}
+	}
+}

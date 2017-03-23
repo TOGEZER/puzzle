@@ -1,0 +1,317 @@
+Version 4.4.1 - June 29, 2016
+=============================
+
+* Fixed: Removed OTF Regenerate plugin. Download separately instead if you still need it from the WP Plugin Directory.
+* Enhanced: Snake case fixes for standards compliance
+* Enhanced: Code cleanup
+
+Version 4.4 - April 5, 2015
+===========================
+
+* Enhanced: Better performance for fixed backgrounds in Chrome and Safari
+* Enhanced: Classes and IDs can now be defined for any of the parallax elements.
+* Fixed: Vimeo loading error
+
+Version 4.3 - January 20, 2016
+==============================
+
+* Parallax now works alongside VC Row's full-height option, but we still recommend using our own full-height.
+* Added color background which also has the ability to allow other html elements to be animated as well, either by CSS background attribute or by CSS color.
+* Amended description regarding YouTube HD videos; all video quality for YouTube videos are determined by Google based on the viewer's current bandwidth. There is currently no way to force specific viewing quality at the moment, unlike in Vimeo.
+* OTF Regenerate Thumbnails has been removed as an embedded plugin. However, they can be re-added manually in the WordPress plugin repository.
+* The plugin structure changed to increase its performance.
+
+Version 4.2.1 - November 16, 2015
+=================================
+
+* Enhanced: Updated Smooth mouse wheel plugin
+* Fixed: Disabling fixed backgrounds in mobile now works
+
+Version 4.2 - July 3, 2015
+==========================
+
+* Enhanced: Smoother (in some cases Hardware Accelerated) fixed backgrounds
+* Enhanced: You can now layer normal backgrounds, parallax backgrounds, hover backgrounds and video backgrounds in different combinations
+* Fixed: Vimeo now properly loops in Firefox
+* Fixed: VC grid messed up parallax background resizing
+* Fixed: Weird hover performance in Safari
+* Fixed: Fixed backgrounds now work properly in Chrome and Edge
+* Fixed: Repeating backgrounds did not repeat
+* Fixed: Full-width conflict with Row Scroll Animations plugin
+* Fixed: Detection for Android mobile devices
+* Fixed: Videos not being hidden in some mobile devices
+* Fixed: VC grid conflicts
+* Fixed: In some installations, the row settings tab gets displaced
+
+Version 4.1 - July 3, 2015
+==========================
+
+* Added new Background Row element for themes which cannot create their own normal background images
+* Added plugin auto updates inside the Gambit Plugins admin page
+* Added fix for image dimensions not being detected when Jetpack's Photon module is active
+* Better mobile device detection as recommended by Mozilla
+* Updated Smooth MouseWheel included plugin
+* Removed rating notice permanently
+* Better compatibility in detecting modified Row elements
+* Fixed minor bug where the tabs inside the row settings in VC's frontend editor are moved down
+* Fixed bug where the hover background sometimes goes in front of elements
+* Fixed bug when row styles are not updated properly
+* Removed Modernizr code
+
+Version 4.0 - June 5, 2015
+==========================
+
+* IMPORTANT NOTE: WE HAVE CHANGED HOW THE PLUGIN WORKS SO UPGRADING FROM 3.7 TO 4.0 WILL NOT AUTOMATICALLY WORK
+* Even more performance optimizations, now even faster than before
+* REMOVED: parallax tab inside rows, replaced it with row adjusting elements instead
+* Added full width element
+* Added full height element
+* Added parallax background element
+* Added video background element
+* Added hover background element
+* Separated smooth scroll, and now includes our Smooth MouseWheel plugin
+* Enhanced rating script, it will no longer ask for a rating even after re-activation
+* Fixed bug where the force HD for YouTube videos did not work
+
+Version 3.7 - May 27, 2015
+==========================
+
+* Revamped smooth scrolling for a more even feel and stablized scrolling across different browsers
+* Increased mobile screen detection
+* Now makes sure not to hide content behind video backgrounds
+* Opacity now does not apply to fixed backgrounds
+
+Version 3.6.1 - March 6, 2015
+=============================
+
+* Fixed various display errors with fixed parallax
+* Fixed parallaxes now falls back to normal scroll background in mobile devices due to various rendering problems
+
+
+Version 3.6 - February 21, 2015
+===============================
+
+* Added a force HD option for forcing YouTube videos to play at a high resolution
+* Full resolution background images are now used and are no longer restricted to 1600~x1000~
+* Small parallax images are now enlarged to occupy the whole background
+* Background now adjusts itself when the contents suddenly change
+* Javascript code optimizations and improvements
+* Fixed bug where 'none' images were being loaded
+* Fixed bug where images were not spanning the whole background
+* Fixed bug where parallaxes were going past their allotted space when scolling
+* Fixed bug where super tall rows did not show backgrounds properly
+* Fixed bug where sometimes the scroll velocity was too fast
+
+Version 3.5 - February 9, 2015
+==============================
+
+* Enhanced YouTube video looping
+* Removed YouTube Loop Triggering Refinement settings, things are now simpler
+* Updated OTF Regenerate Thumbnails to v0.2
+* Fixed IE11 video bug where the video did not show up
+* Fixed minor bug where videos can be right clicked and the menu won't disappear
+
+Version 3.4.1 - January 25, 2015
+================================
+
+* Fixed bug where background images stretched horizontally
+* Removed option to scale background images, they now always do not scale just like prior to v3.0
+
+Version 3.4 - January 25, 2015
+==============================
+
+* Retired bfi_thumb and replaced it with OTF Regenerate Thumbnails
+	* Fixed 99999x99999 image bug
+	* Fixed image manager image vertically resizing bug
+	* Fixed image quality issues
+	* Fixed other image resizing bugs
+* Enhanced compatibility mode, should now support even more themes!
+* Vimeo videos can now be muted!
+* Fixed some unwanted console logging that was showing up
+* Better compatibility mode
+
+Version 3.3 - December 8, 2014
+==============================
+
+* YouTube & Vimeo video loading screens are now hidden
+* The background image or background color will serve as the preview image of video backgrounds while they're not yet ready to play
+* Fixed bug where including the parallax scripts multiple times stopped parallax rows from working
+
+Version 3.2.1 - November 28, 2014
+=================================
+
+* Updated smooth scroll script to v1.1.1
+	* Emergency bug fix where sometimes page scrolling stops
+	* Emergency bug fix where Mac & Windows browsers had different scroll amounts
+
+Version 3.2 - November 28, 2014
+===============================
+
+* Added new feature to allow normal backgrounds (colors and images) to break out of the row container
+	* You don't even have to add a parallax to use the breakout function
+* Updated smooth scroll script to v1.1
+	* Smooth scroll now works properly for scrollable elements
+* Fixed bug where enable/disable for mobile was not working properly
+
+Version 3.1 - November 7, 2014
+==============================
+
+* Better parallax handling in mobile devices!
+* Better compatibility with themes that modify Visual Composer's Row behavior
+* Added a compatiblity mode option in the plugin's links for those instances where the parallax tab doesn't appear in the row settings
+* Fixed bug where videos sometimes do not show up
+* Fixed bug where the background repeat setting was not being followed
+* Fixed bug where bfi_thumb sometimes resizes back-end thumbnails
+
+
+Version 3.0 - October 16, 2014
+================================
+
+* Ultra Mega Super Update!
+* Image Parallax Updates:
+	* Optimized image parallax speed! Now hardware accelerated for better performance
+	* You no longer have to think about the size of your image when using it as a background
+	* Image parallax backgrounds are now automatically resized for optimal background dimensions
+	* Image parallax backgrounds now automatically fit/cover the background (no more unwanted seams)
+	* Added a new field for selecting your image backgrounds for themes that forcibly remove VC's design option tab
+	* New feature: fixed image backgrounds
+* Video Updates:
+	* Simplified the video ID fields into just 1 field that accepts either a YouTube ID or a Vimeo ID
+	* Better video full resizing methods! Videos now preserve their aspect ratio and fit into your rows to ensure that no black bars appear!
+	* Videos won't show up anymore in the frontend editor
+* Other Updates & Changes:
+	* Lessened & unified scripts that are being loaded for a more faster loading time
+	* Better smooth scrolling method that uses requestAnimationFrames
+	* Smooth scroller method no longer dependent on jQuery for better responsiveness
+	* Removed the linking capability to the next rows (this was kept before for backward compatibility for VC 3.7 or lower), now you can just nest rows to achieve the same effect.
+	* Updated setting descriptions since some of them have improvements
+	* Remote images if used in a parallax will not work anymore
+
+Version 2.8 - September 22, 2014
+================================
+
+* Fixed bug in IE 11 for Windows 7 where the video background
+* Fixed bug in the frontend editor where adding a parallax to a row removes the background image
+* Fixed bug where resizing the browser smaller with smooth scrolling on prevents the window from fully scrolling to the bottom
+* Since VC's frontend editor & the real frontend are structurally different, live previews of the parallax will not show up. However, the row's background image will still show up
+
+Version 2.7
+===========
+
+* Fixed compatibility issue with some themes (Avada among others) regarding Modernizr (Thanks Manishie!)
+* Fixed issue where defining GAMBIT_DISABLE_RATING_NOTICE doesn't remove the plugin notices
+* Fixed bug where in some setups, br tags appear and break the outputted html
+
+Version 2.6
+===========
+
+* Emergency update: Fixes bug where background videos did not resize correctly
+* Added plugin links
+* Added first time activation instructions
+
+Version 2.5
+===========
+
+* Added options for specifying the background alignment (left/right/center for vertical parallax and top/bottom/center for horizontal parallax)
+* Since video backgrounds are not supported in mobile, added fallback background image for those using VC's background image setting
+* Fixed bug where background videos sometimes did not work
+
+Version 2.4
+===========
+
+* Added the option to enable smooth page scrolling!
+* Parallax scroll speed optimizations
+
+Version 2.3
+===========
+
+* Fixed bug that prevented the Video & Parallax tab from showing up in lower versions of Visual Composer
+* Added better documentation
+
+Version 2.2
+===========
+
+* Added new video options for fixing vertical and horizontal black bars
+* Added a YouTube option for fine tuning the loop timing (Vimeo already does looping well)
+* The row background color is now copied over to the parallax background, great for transparent background images
+* Fixed bug where a test variable was left and causing errors to show up in debug mode
+* Fixed bug where inputting a video ID then setting back to parallax still shows the video
+* Fixed some minor javascript undefined notices
+* Segregated scripts and styles to their own files
+* Cleaned up all Javascript code with JSHint
+* All styles and scripts are now minified
+
+Version 2.1
+===========
+
+* Fixed bug where the original background image was still being shown behind
+the parallax in Visual Composer 4.1.3
+* Added clearer instructions on where to add the background image
+
+Version 2.0
+===========
+
+* New feature: video backgrounds!
+* Fixed bug where bottom margins were not being used when spanning multiple rows
+
+Version 1.9
+===========
+
+* Fixed bug where in certain WP setups, the parallax field does not appear
+* Parallax parameters now do not have conflicts if other parallax addons are currently installed
+* Placed additional information for the parallax fields
+
+Version 1.8
+===========
+
+* When used in Visual Composer 4.1.x, the parallax options are shown in the Parallax tab
+* Now compatible with the new edit row layout introduced in Visual Composer v4.1.x
+
+Version 1.7
+===========
+
+* Better animation performance, now achieving x1.3 - x2 fps from requestAnimationFrame
+* Better handling for the down direction
+* Fixed bug where the down direction had the wrong image offsets
+* Fixed bug where gaps sometimes appeared for rows with negative margins
+
+Version 1.6
+===========
+
+* Fixed bug when the parallax in some themes fail to break out of its container width properly
+* Fixed bug margins were not being taken into account for the parallax width
+
+Version 1.5
+===========
+
+* Added ability to span across multiple rows
+* Fixed bug where background-size properties weren't being followed
+* Fixed bug where unnecessary html was being generated for non-parallax rows
+
+Version 1.4
+===========
+
+* Now applies background-attachment: fixed to up and down directions for less jitter
+* Fixed bug where background-repeat properties weren't being followed
+
+Version 1.3
+===========
+
+* Added ability for parallax to break out of it's containers
+* Added an option to disable / enable the parallax effect on mobile devices
+
+Version 1.2
+===========
+
+* Rewrote script
+* Now supports up, down, left and right parallax scrolling
+
+Version 1.1
+===========
+
+* Bug fixes regarding start position and floats turning into ints
+
+Version 1.0
+===========
+
+* First release

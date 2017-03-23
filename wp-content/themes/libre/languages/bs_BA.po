@@ -1,0 +1,259 @@
+# Translation of Libre in Bosnian
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "Stranice:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Izgleda da ne možemo prikazati ono što vam treba. Možda pretraga pomogne."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Žao nam je, ali nema rezultata za tražene pojmove. Molimo vas da pokušate ponovo koristeći druge ključne riječi."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Spremni ste da objavite vaš prvi članak? <a href=\"%1$s\">Započnite ovdje</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ništa nije pronađeno"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Rezultati pretrage za: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "Arhive"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "Arhive: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Dopisivanje"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Zvuk"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statusi"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Linkovi"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citati"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Video snimci"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Slike"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galerije"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Kratki članci"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j. F Y."
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "Dan: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y."
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "Mjesec: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y."
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "Godina: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "Oznaka: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "Kategorija: %s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "Objavljeno u %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% komentara"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "1 komentar"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "Komentariši"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "Objavljeno %1$s"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "od %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navigacija članaka"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "Noviji članci"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "Stariji članci"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navigacija kroz članke"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "Stranica %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Meni"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Idi na sadržaj"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar čeka na moderaciju."
+
+#: functions.php:289
+msgid "Edit"
+msgstr "Uredi"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "Bočna traka"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "Glavni meni"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s od %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "Pokreće %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://bs.wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Komentari su isključeni."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "Noviji komentari"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "Stariji komentari"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "Navigacija komentara"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentar na &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentara na &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentara na &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Pogledajte u mjesečnim arhivama. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "Najkorištenije kategorije"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Izgleda da ništa nije pronađeno na toj lokaciji. Možda da pokušate sa nekim od linkova ispod?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Ta stranica nije pronađena."

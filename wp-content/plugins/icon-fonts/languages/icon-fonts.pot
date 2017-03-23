@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Icon Fonts\n"
+"POT-Creation-Date: 2015-06-10 12:05+1000\n"
+"PO-Revision-Date: 2015-06-10 12:05+1000\n"
+"Last-Translator: Sydcode <sydcode@gmail.com>\n"
+"Language-Team: Sydcode\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../icon-fonts.php:236 ../settings.php:14
+msgid "Icon Fonts Settings"
+msgstr ""
+
+#: ../icon-fonts.php:237
+msgid "Icon Fonts"
+msgstr ""
+
+#: ../icon-fonts.php:250
+msgid "You do not have sufficient permissions to access this page"
+msgstr ""
+
+#: ../icon-fonts.php:262
+msgid "Fonts"
+msgstr ""
+
+#: ../icon-fonts.php:269
+msgid "Stylesheets"
+msgstr ""
+
+#: ../icon-fonts.php:276
+msgid "Format"
+msgstr ""
+
+#: ../settings-fonts.php:15
+msgid "Dashicons"
+msgstr ""
+
+#: ../settings-fonts.php:16
+msgid " (218 icons) is the official icon font of Wordpress."
+msgstr ""
+
+#: ../settings-fonts.php:21
+msgid "Elegant (360 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:22
+msgid "Elegant Themes"
+msgstr ""
+
+#: ../settings-fonts.php:27
+msgid "Elusive (304 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:28
+msgid "Dave Gandy &amp; Team Redux"
+msgstr ""
+
+#: ../settings-fonts.php:33
+msgid "Entypo (284 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:34
+msgid "Daniel Bruce"
+msgstr ""
+
+#: ../settings-fonts.php:39
+msgid "Font Awesome (519 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:40
+msgid "Dave Gandy"
+msgstr ""
+
+#: ../settings-fonts.php:45
+msgid "Foundation (284 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:46
+msgid "ZURB Studios"
+msgstr ""
+
+#: ../settings-fonts.php:51
+msgid "Genericons (147 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:52
+msgid "Automattic"
+msgstr ""
+
+#: ../settings-fonts.php:57
+msgid "Icomoon Free (491 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:58
+msgid "Keyamoon"
+msgstr ""
+
+#: ../settings-fonts.php:63
+msgid "Ionicons (734 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:64
+msgid "Ben Sperry"
+msgstr ""
+
+#: ../settings-fonts.php:69
+msgid "Map (176 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:70
+msgid "Scott de Jonge"
+msgstr ""
+
+#: ../settings-fonts.php:75
+msgid "Material Design (1062 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:76
+msgid "Google &amp; Austin Andrews"
+msgstr ""
+
+#: ../settings-fonts.php:81
+msgid "MFG Labs (186 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:82
+msgid "MFG Labs"
+msgstr ""
+
+#: ../settings-fonts.php:87
+msgid "Octicons (179 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:88
+msgid "GitHub"
+msgstr ""
+
+#: ../settings-fonts.php:93
+msgid "Open Iconic (229 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:94
+msgid "Iconic"
+msgstr ""
+
+#: ../settings-fonts.php:99
+msgid "OpenWeb (118 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:100
+msgid "Matthias Pfefferle"
+msgstr ""
+
+#: ../settings-fonts.php:105
+msgid "Sosa (122 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:106
+msgid "Ed Merritt"
+msgstr ""
+
+#: ../settings-fonts.php:111
+msgid "Themify (352 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:112
+msgid "Themify"
+msgstr ""
+
+#: ../settings-fonts.php:117
+msgid "Typicons (336 icons) by "
+msgstr ""
+
+#: ../settings-fonts.php:118
+msgid "Stephen Hutchings"
+msgstr ""
+
+#: ../settings-format.php:46
+msgid "Select a color for new icons, or leave blank to use text color."
+msgstr ""
+
+#: ../settings-format.php:50
+msgid "Pixels"
+msgstr ""
+
+#: ../settings-format.php:51
+msgid "Select a font size for new icons, or select zero to use text size."
+msgstr ""
+
+#: ../settings-format.php:55
+msgid "Enter additional classes for new icons, separated by spaces."
+msgstr ""
+
+#: ../settings-format.php:59
+msgid "Enter additional styles for new icons, separated by semi-colons."
+msgstr ""
+
+#: ../settings-stylesheets.php:24
+msgid "Minimised"
+msgstr ""
+
+#: ../settings-stylesheets.php:25
+msgid "Use minimised stylesheets."
+msgstr ""
+
+#: ../settings-stylesheets.php:31
+msgid "No Framework"
+msgstr ""
+
+#: ../settings-stylesheets.php:36
+msgid "Bootstrap"
+msgstr ""
+
+#: ../settings-stylesheets.php:41
+msgid "Foundation"
+msgstr ""
+
+#: ../settings-stylesheets.php:43
+msgid "Select a framework stylesheet for Open Iconic and OpenWeb."
+msgstr ""

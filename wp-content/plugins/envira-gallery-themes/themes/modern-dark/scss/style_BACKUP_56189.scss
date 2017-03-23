@@ -1,0 +1,407 @@
+/* ==========================================================================
+   Modern (Dark) Theme Styles
+   ========================================================================== */
+
+/**
+* overlay
+*/
+.envirabox-overlay.overlay-modern-dark {
+	background: #000;
+}
+
+.envirabox-nav.envirabox-nav-modern-dark {
+    background: #2b2b2b !important;
+    position: fixed;
+    width: 8%;
+    max-width: 80px;
+    min-width: 60px;
+    z-index: 988060; /* this keeps it above the thumbs */
+    &.envirabox-nav {
+        height: 100%;
+    }
+    &.envirabox-previous {
+        
+    }
+    &.envirabox-next {
+        
+    }
+    &.envirabox-prev span,
+    &.envirabox-next span {
+        background-image: url('../images/arrow.png');
+        background-repeat: no-repeat;
+        background-size: 13px 13px;
+        visibility: visible;
+        background-position: 0 5px;
+        left: 50%;
+    }
+    &.envirabox-prev span {
+        left: 40%;
+    }
+    &.envirabox-next span {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        left: 45%;
+    }
+    span {
+        width: 13px !important;
+        /*height: 13px !important;*/
+    }
+    span:hover {
+
+    }
+}
+
+.envirabox-close {
+    display: none;
+}
+
+#envirabox-thumbs {
+    li {
+        border: 0;
+    }
+}
+
+/**
+* Lightbox
+*/
+.envirabox-skin.envirabox-theme-modern-dark {
+    padding: 0px !important;
+    background: none;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    .envirabox-inner {
+
+        .envirabox-position-overlay {
+
+            /** 
+             * Social icons
+             */
+
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            top: inherit;
+
+            .envira-social-buttons {
+                display: inline-block;
+                float: none;
+                right: -10px !important;
+                bottom: -42px !important;
+
+                & .envira-social-network {
+                    clear: none;
+                    float: right;
+
+                    a.envira-social-button {
+                        width: 25px;
+                        height: 25px; 
+                        line-height: 25px;
+                        background-size: 151px 25px;
+                        background-image: url(../images/social@2x.png);
+                        background-color: transparent;
+                        border-radius: inherit;
+                        -webkit-border-radius: inherit;
+                        -moz-border-radius: inherit;
+                    }
+
+                }
+
+                /**
+                * Buttons for each Social Network
+                */
+                div.facebook {
+                    a { 
+                        background-position: -63px 0px;
+                    }
+                }
+                div.twitter {
+                    a { 
+                        background-position: -31px 0px;
+                    }
+                }
+                div.pinterest {
+                    a { 
+                        background-position: -95px 0px;
+                    }
+                }
+                div.google {
+                    a { 
+                        background-position: 0px 0px;
+                    }
+                }
+                div.email {
+                    a { 
+                        background-position: -126px 0px;
+                    }
+                }
+
+            }
+
+        } /* overlay */
+
+    }
+
+    /**
+    * Titles
+    */
+    .envirabox-title-float-wrap {
+    	margin: 0;
+    	color: #fff;
+    	left: 0%;
+    	text-align: left;
+    	background-color: transparent;
+        float: none;
+
+        span.child {
+            border-radius: 0;
+            background-color: transparent;
+            margin-left: 0;
+            font-size: 11px;
+            padding: 2px 2px;
+            font-family: "Open Sans", -apple-system, Helvetica, Arial, sans-serif;
+        }
+    }
+
+}
+
+#envirabox-buttons.envirabox-buttons-modern-dark {
+    visibility: hidden;
+    top: 25px;
+    ul {
+        background: transparent;
+        box-shadow: none;
+    }
+    li {
+        border: 0;
+    }
+    a {
+        background-image: url('../images/envirabox_buttons.png');
+        border: 0 !important;
+    }
+    a.btnPrev,
+    a.btnNext {
+        display: none;
+    }
+}
+
+#envirabox-thumbs.envirabox-thumbs-modern-dark {
+    ul {
+        
+        margin: 0 auto;
+    }
+    ul li {
+        border-color: transparent !important;
+        margin: 15px 15px 40px;
+    }
+    ul li.active {
+        border-color: #ccc !important;
+    }
+}
+
+
+.envirabox-actions.modern-dark,
+.envirabox-actions.modern-light {
+
+    position: absolute;
+    z-index: 988050;
+    top: 25px;
+    right: 10%;
+
+    .envira-close-button {
+
+        display: inline-block;
+        z-index: 988041;
+
+        .btnClose {
+
+            /* some of these are copied from envira.css regarding .btnclose */
+            background-image: url('../images/envirabox_buttons.png');
+            border: 0 !important;
+            background-position: -56px 0;
+            /*background-size: 24px 24px;*/
+            height: 35px;
+            width: 35px;
+            line-height: 35px;
+            display: block;
+        }
+
+    }
+
+    /**
+    * Buttons
+    */
+
+    .envira-zoom-button,
+    .envira-download-button,
+    .envira-printing-button {
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+        a {
+            width: 33px;
+            height: 33px;
+            line-height: 32px;
+            /*background-color: transparent;*/
+        }
+    }
+
+}
+
+/**
+* Supersize
+*/
+
+<<<<<<< HEAD
+/**
+* Comments Addon
+*/
+
+div.envirabox-overlay-comments {
+  #envirabox-thumbs {
+    position: absolute;
+  }
+=======
+.envirabox-nav.supersize {
+    max-width: 30px;
+    min-width: 30px;
+    &.envirabox-next span,
+    &.envirabox-prev span {
+        left: 31%;
+    }
+}
+
+.envirabox-actions.supersize {
+    right: 40px;
+}
+
+
+/**
+* Mobile Landscape Portrait (devices and browsers)
+*/
+@media only screen and (max-width: 680px) {
+    /**
+    * Lightbox
+    */
+    .envirabox-skin.envirabox-theme-modern-dark .envirabox-inner {
+
+        .envirabox-position-overlay {
+            bottom: inherit;
+            top: -46px;
+
+            .envira-social-buttons {
+                right: 0 !important;
+            }
+        }
+
+    } 
+    /**
+    * Thumbnails
+    */
+    #envirabox-thumbs {
+
+    }
+
+    .envirabox-actions.modern-dark {
+        right: 65px;
+        top: 10px;
+    }
+
+
+/*    .envirabox-nav.envirabox-nav-modern-dark {
+        max-width: 30px;
+        min-width: 30px;
+        &.envirabox-next span,
+        &.envirabox-prev span {
+            left: 31%;
+        }
+    }*/
+
+    .envirabox-title-float-wrap {
+
+        span.child {
+
+            white-space: normal;
+            line-height: 18px;
+
+        }
+    }
+
+    .envirabox-title-float-wrap {
+
+        span.child {
+            margin-top: 5px;
+        }
+    }
+
+}
+
+/**
+* Mobile Portrait (devices and browsers)
+*/
+@media only screen and (max-width: 459px) {
+    .envirabox-wrap {
+
+        /* left: 29% !important; */ /* experiment */
+
+        & .envirabox-theme-modern-dark {
+            /** 
+             * Navigation
+             */
+            a.envirabox-nav {
+
+                & span {
+                    margin-top: -102px;
+                }
+            }
+        }
+    }
+    
+    #envirabox-thumbs.envirabox-thumbs-modern-dark {
+
+        ul li a {
+            max-width: 100px;
+            max-height: 60px;
+
+            & img {
+                max-width: 100px;
+                max-height: 60px;
+            }
+        }
+
+        ul li {
+            margin: 15px 5px;
+        }
+
+    }
+>>>>>>> master
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

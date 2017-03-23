@@ -1,0 +1,273 @@
+# Translation of Libre in Persian
+# This file is distributed under the same license as the Libre package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-03 03:59:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Libre\n"
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:23
+#: template-parts/content.php:35
+msgid "Pages:"
+msgstr "صفحه‌ها:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "به نظر می‌آید ما نمی‌توانیم آنچه به دنبالش هستید بیابیم. احتمالا جست‌وجو می‌تواند کمک کند."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "متأسفانه، هیچ‌چیزی با عبارت‌های جستجوی شما مطابقت نداشت. لطفاً دوباره با چند کلیدواژهٔ متفاوت تلاش کنید."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "آمادهٔ انتشار نخستین نوشتهٔ خود هستید؟ <a href=\"%1$s\">از اینجا بیآغازید</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی یافت نشد"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "نتایج جست‌وجو برای: %s"
+
+#: inc/template-tags.php:192
+msgid "Archives"
+msgstr "بایگانی"
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:190
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:186
+msgid "Archives: %s"
+msgstr "بایگانی‌ها: %s"
+
+#: inc/template-tags.php:183
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "گپ‌ها"
+
+#: inc/template-tags.php:181
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "صوت"
+
+#: inc/template-tags.php:179
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "وضعیت‌ها"
+
+#: inc/template-tags.php:177
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "پیوندها"
+
+#: inc/template-tags.php:175
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "گفتاوردها"
+
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "فیلم‌ها"
+
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "تصویرها"
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "گالری‌‌ها"
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "در حاشیه‌ها"
+
+#: inc/template-tags.php:164
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: inc/template-tags.php:164
+msgid "Day: %s"
+msgstr "روز: %s"
+
+#: inc/template-tags.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:162
+msgid "Month: %s"
+msgstr "ماه: %s"
+
+#: inc/template-tags.php:160
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:160
+msgid "Year: %s"
+msgstr "سال: %s"
+
+#: inc/template-tags.php:158
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#: inc/template-tags.php:156
+msgid "Tag: %s"
+msgstr "برچسب‌ها: %s"
+
+#: inc/template-tags.php:154
+msgid "Category: %s"
+msgstr "دسته: %s"
+
+#: inc/template-tags.php:133
+msgid "Tagged %1$s"
+msgstr "برچسب‌خورده با %1$s"
+
+#: inc/template-tags.php:127
+msgid "Posted in %1$s"
+msgstr "فرستاده‌شده در %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:125 inc/template-tags.php:131
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr "۱ دیدگاه"
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr "بیان دیدگاه"
+
+#: inc/template-tags.php:86
+msgid "Posted on %1$s"
+msgstr "نوشته‌شده در %1$s"
+
+#: inc/template-tags.php:95
+msgid "by %1$s"
+msgstr "به‌دست %1$s"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "ناوبری نوشته"
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr "نوشته‌های تازه‌تر"
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr "نوشته‌های پیشین"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "ناوبری نوشته‌ها"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "صفحهٔ %s"
+
+#: header.php:46
+msgid "Menu"
+msgstr "گزینگان"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما چشم به راه بررسی است."
+
+#: functions.php:110
+msgid "Footer Widgets 1"
+msgstr "ابزارک‌های پاورقی ۱"
+
+#: functions.php:120
+msgid "Footer Widgets 2"
+msgstr "ابزارک‌های پاورقی ۲"
+
+#: functions.php:130
+msgid "Footer Widgets 3"
+msgstr "ابزارک‌های پاورقی ۳"
+
+#: functions.php:289
+msgid "Edit"
+msgstr "ویرایش"
+
+#: functions.php:100
+msgid "Sidebar"
+msgstr "ستون کناری"
+
+#: functions.php:41
+msgid "Primary Menu"
+msgstr "گزینگان اصلی"
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s."
+msgstr "پوسته: %1$s کاری از %2$s."
+
+#: footer.php:54
+msgid "Proudly powered by %s"
+msgstr "با افتخار، نیرو گرفته از %s"
+
+#: footer.php:54
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته شده‌اند."
+
+#: comments.php:53
+msgid "Newer Comments"
+msgstr "دیدگاه‌های تازه‌تر"
+
+#: comments.php:52
+msgid "Older Comments"
+msgstr "دیدگاه‌های پیشین"
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr "ناوبری دیدگاه"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نظر برای &ldquo;%2$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "بد نیست نگاهی به بایگانی ماهانه بیندازید. %1$s"
+
+#: 404.php:34
+msgid "Most Used Categories"
+msgstr "پراستفاده‌ترین دسته‌ها"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "به نظر می‌رسد چیزی در این مکان نیست. شاید بخواهید یکی از پیوندهای زیر یا جست‌وجو را آزمایش کنید."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوه! امکان یافتن صفحه نیست."
